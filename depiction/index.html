@@ -54,7 +54,7 @@
             "type": "list",
             "source": "package>descriptionlist>description",
             "paragraphElement": "<p>",
-            "emptyListCallback": function(e) { $("#descriptionPanel").hide() }
+            "emptyListCallback": function(e) { $("#descriptionContainer").hide() }
         },
         "#screenshotsLink": {
             "type": "custom",
@@ -79,7 +79,7 @@
             "source": "package>changelog>change",
             "reverseRender": true,
             "paragraphElement": "<p>",
-            "emptyListCallback": function(e) { $("#changelogContainer").hide() }
+            "emptyListCallback": function(e) { $("#changesList").hide() }
         },
         "#changelogLink": {
             "type": "custom",
@@ -158,16 +158,16 @@
     <!-- 整页内容区 -->
     <main id="content">
         <div id="packageInformation">
-            <div id="packageHeader" style="display:none">
+            <section id="packageHeader" class="block" style="display:none">
                 <h1 id="packageName"></h1>
                 <p id="packageShortDesc">Welcome to my repo.</p>
-            </div>
+            </section>
             <!-- 版本适配检查 -->
-            <section id="checkios">
+            <section id="checkios" class="block">
                 <div id="compatibilityCheck" class="alert"></div>
             </section>
             <!-- 简介 -->
-            <section class="block">
+            <section id="descriptionContainer" class="block">
                 <h2 role="header">简介</h2>
                 <ul id="description">
                     <li id="descriptionList"></li>
@@ -175,34 +175,28 @@
                 </ul>
             </section>
             <!-- 当前版本日志 -->
-            <section class="block">
-                <div id="changelogContainer">
-                    <h2 role="header">当前版本 <span id="versionBadge" class="badge"></span></h2>
-                    <ul id="change">
-                        <li id="changesList"></li>
-                        <li id="changelogLink"></li>
-                    </ul>
-                </div>
+            <section id="changelogContainer" class="block">
+                <h2 role="header">当前版本 <span id="versionBadge" class="badge"></span></h2>
+                <ul id="change">
+                    <li id="changesList"></li>
+                    <li id="changelogLink"></li>
+                </ul>
             </section>
             <!-- 依赖 -->
-            <section class="block">
-                <div id="dependenciesContainer">
-                    <h2 role="header">依赖包</h2>
-                    <ul id="depend">
-                        <li id="dependencyList"></li>
-                    </ul>
-                </div>
+            <section id="dependenciesContainer" class="block">
+                <h2 role="header">依赖包</h2>
+                <ul id="depend">
+                    <li id="dependencyList"></li>
+                </ul>
             </section>
             <!-- 链接 -->
-            <section class="block">
-                <div id="externalLinksContainer">
-                    <h2 role="header">链接</h2>
-                    <ul id="externalLinksList"></ul>
-                </div>
+            <section id="externalLinksContainer" class="block">
+                <h2 role="header">链接</h2>
+                <ul id="externalLinksList"></ul>
             </section>
         </div>
         <!-- 错误提示 -->
-        <section id="packageError" style="display:none">
+        <section id="packageError" class="block" style="display:none">
             <span><strong>FUCK！</strong> 你要查看的软件包不存在</span>
         </section>
         <script type="text/javascript">
