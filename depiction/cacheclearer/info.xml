@@ -1,0 +1,35 @@
+<package>
+	<id>com.jianfengzhi.cacheclearer</id>
+	<name>CacheClearer</name>
+	<version>0.1-3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>有效清理应用缓存和重置应用</shortDescription>
+	<descriptionlist>
+		<description>清理应用缓存,重置应用</description>
+		<description>设置-通用-用量-存储空间-XXApp</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>- 根据源码汉化编译,适配iOS 10</change>
+	</changelog>
+	<links>
+		<link>
+			<name>插件GitHub页</name>
+			<url>https://github.com/rpetrich/CacheClearer</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

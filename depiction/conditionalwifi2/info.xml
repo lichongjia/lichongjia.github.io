@@ -1,0 +1,25 @@
+<package>
+	<id>com.jianfengzhi.conditionalwifi2</id>
+	<name>ConditionalWiFi2</name>
+	<version>1.0.0-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>开启或关闭APP对WiFi网络的访问</description>
+		<description>在 设置-WiFi(无线局域网)-选项 下面进行具体设置</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+				<image>shot1.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>发布支持iOS 10</change>
+	</changelog>
+	<links></links>
+</package>

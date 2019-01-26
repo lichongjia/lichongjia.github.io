@@ -1,0 +1,17 @@
+<package>
+	<id>com.jianfengzhi.exkeyboard</id>
+	<name>exKeyboard</name>
+	<version>1.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<shortDescription>在iPhone上调用第三方键盘输入密码</shortDescription>
+	<descriptionlist>
+		<description>在输入密码的时候iPhone默认会自动调用系统英文输入法，安装此插件后可以调用第三方键盘来输入密码。</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog></changelog>
+</package>

@@ -1,0 +1,25 @@
+<package>
+	<id>com.jianfengzhi.atlas</id>
+	<name>Atlas</name>
+	<version>z1.0-1+debug</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>新的iOS控制中心开关样式。</shortDescription>
+	<descriptionlist>
+		<description>竖直方式显示iOS控制中心的开关,for iOS 10。</description>
+	</descriptionlist>
+	<changelog>
+		<change></change>
+	</changelog>
+	<links>
+		<link>
+			<name>开发者主页</name>
+			<url>https://antiquebeta.github.io</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

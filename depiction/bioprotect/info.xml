@@ -1,0 +1,40 @@
+<package>
+	<id>com.jianfengzhi.bioprotect</id>
+	<name>BioProtect</name>
+	<version>2.3-16</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+		<package>libbulletin</package>
+	</dependencies>
+	<shortDescription>最好用的指纹密码加密解密App应用</shortDescription>
+	<descriptionlist>
+		<description>使用Touch ID或密码保护您的应用程序！</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>- 修复了控制文件仅允许在低于iOS 10.x.x上安装</change>
+	</changelog>
+	<links>
+		<link>
+			<name>开发者个人源</name>
+			<url>http://limneos.net/repo/</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<package>
+	<id>com.supermamon.nctabcolor</id>
+	<name>NCTabColor</name>
+	<version>1.0.2</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>5.0</maxiOS>
+		</firmware>
+  </compatibility>
+	<dependencies>libcolorpicker</dependencies>
+	<descriptionlist>
+		<description>给通知中心的选项卡添加上颜色.</description>
+    <description><![CDATA[
+源代码可以在<a href="https://github.com/supermamon/NCTabColor">GitHub</a>上找到.
+    ]]>
+    </description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>设置界面和预览</description>
+			<image>screenshot1.png</image>
+		</screenshot>
+</screenshots>
+	<changelog>
+		<change>在control文件中添加了运行插件需要的依赖</change>
+	</changelog>
+	<links />
+</package>

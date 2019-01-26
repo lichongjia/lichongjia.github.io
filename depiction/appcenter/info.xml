@@ -1,0 +1,23 @@
+<package>
+	<id>com.jianfengzhi.appcenter</id>
+	<name>App Center</name>
+	<version>1.0.5-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>控制中心增强插件</shortDescription>
+	<descriptionlist>
+		<description>在控制中心添加AppCenter页面</description>
+		<description>可以从页面直接启动APP，并且可直接在控制中心上显示並快速切换APP</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.png</image>
+	</screenshots>
+	<changelog>
+		<change>更新记录对你没卵用</change>
+	</changelog>
+</package>

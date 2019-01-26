@@ -1,0 +1,53 @@
+<package>
+	<id>com.jianfengzhi.reprovison</id>
+	<name>ReProvison</name>
+	<version>0.3.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>新版重签名插件</shortDescription>
+	<descriptionlist>
+		<description>严成红傻逼专用插件</description>
+		<description>在您的设备上重新签名应用程序</description>
+		<description>- 自动重签本地应用程序。</description>
+		<description>- 保存AppleID登录详细信息(注意：敏感信息存储在密钥链中)。</description>
+		<description>- 通过Safari和其他应用程序安装.ipa文件</description>
+		<description>- 支持AppleWatch程序</description>
+		<description>- 3D触摸菜单,手动重新签署从主屏幕</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>截图3</description>
+			<image>shot3.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>截图4</description>
+			<image>shot4.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>更新记录对你没卵用</change>
+	</changelog>
+	<links>
+		<link>
+			<name>详细使用教程</name>
+			<url>https://blog.cydiami.com/83.html</url>
+			<iconclass>fa fa-book</iconclass>
+		</link>
+		<link>
+			<name>官方Github页</name>
+			<url>https://github.com/Matchstic/ReProvision</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

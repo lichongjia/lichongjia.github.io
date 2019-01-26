@@ -1,0 +1,23 @@
+<package>
+	<id>com.jianfengzhi.datameterlite</id>
+	<name>DataMeter Lite</name>
+	<version>1.4.3-2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Datameter的精简版</shortDescription>
+	<descriptionlist>
+		<description>提取Datameter里面的悬浮网速功能</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>				
+	</screenshots>
+	<changelog>
+		<change>增加了固定悬浮窗位置</change>
+	</changelog>
+</package>

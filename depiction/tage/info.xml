@@ -1,0 +1,42 @@
+<package>
+	<id>com.jianfengzhi.tage</id>
+	<name>Tage</name>
+	<version>1.2.2-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+		<package>preferenceloader</package>
+	</dependencies>
+	<shortDescription>Tage是一个功能强大的多任务手势插件</shortDescription>
+	<descriptionlist>
+		<description>- 返回主屏幕或激活多任务</description>
+		<description>- 切换程序</description>
+		<description>- 快速切换</description>
+		<description>- 锁定机器</description>
+		<description>- 任务管理界面卡片动作</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>修复在iOS 10.0.1和10.0.2崩溃问题</change>
+	</changelog>
+	<links>
+		<link>
+			<name>开发者主页</name>
+			<url>https://www.clezz.com</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>
