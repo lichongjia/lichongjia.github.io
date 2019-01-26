@@ -47,21 +47,6 @@ Name: redeb
 Author: T.Herak <50dc856b@opayq.com>
 Depiction: https://jfzcydia.github.io/depiction/redeb/index.html
 
-Package: com.jianfengzhi.appcenter
-Version: 1.0.5-1
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: deb/appcenter_1.0.5-1.deb
-Size: 222074
-MD5sum: 9d9a8149f5dc2a4c41217ed166e7435c
-Description: 在控制中心添加AppCenter页面
-Name: App Center
-Author: CONATH, Evan Swick
-Depiction: https://jianfengzhi.github.io/depiction/?p=appcenter
-Icon: file:///Library/PreferenceBundles/AppCenter.bundle/AppCenter@2x.png
-
 Package: com.jianfengzhi.appsyncunified
 Version: 31.1
 Section: Tweaks
