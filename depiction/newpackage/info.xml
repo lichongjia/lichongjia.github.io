@@ -24,11 +24,11 @@
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>这是第1张截图的描述。</description>
-			<image>cydia.jpg</image>
+			<description>This is the first description screenshot.</description>
+			<image>shot1.jpg</image>
 		</screenshot>		
 		<screenshot>
-			<description>这是第2张截图的描述。</description>
+			<description>This is the second description screenshot.</description>
 			<image>cydia.jpg</image>
 		</screenshot>		
 	</screenshots>
@@ -44,9 +44,9 @@
 			<iconclass>fa fa-reddit</iconclass>
 		</link>
 		<link>
-			<name>开发者主页</name>
+			<name>Develpoer</name>
 			<url>https://www.baidu.com</url>
-			<iconclass>fa fa-home</iconclass>
+			<iconclass>fa fa-code</iconclass>
 		</link>
 	</links>
 </package>

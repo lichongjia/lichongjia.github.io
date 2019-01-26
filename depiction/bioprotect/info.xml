@@ -32,9 +32,9 @@
 	</changelog>
 	<links>
 		<link>
-			<name>开发者个人源</name>
+			<name> 开发者个人源</name>
 			<url>http://limneos.net/repo/</url>
-			<iconclass>fa fa-home</iconclass>
+			<iconclass>fa fa-code</iconclass>
 		</link>
 	</links>
 </package>

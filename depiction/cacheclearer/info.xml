@@ -27,9 +27,9 @@
 	</changelog>
 	<links>
 		<link>
-			<name>插件GitHub页</name>
+			<name> 插件GitHub页</name>
 			<url>https://github.com/rpetrich/CacheClearer</url>
-			<iconclass>fa fa-home</iconclass>
+			<iconclass>fa fa-code</iconclass>
 		</link>
 	</links>
 </package>

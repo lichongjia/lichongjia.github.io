@@ -45,9 +45,9 @@
 			<iconclass>fa fa-book</iconclass>
 		</link>
 		<link>
-			<name>官方Github页</name>
+			<name> 官方Github页</name>
 			<url>https://github.com/Matchstic/ReProvision</url>
-			<iconclass>fa fa-home</iconclass>
+			<iconclass>fa fa-code</iconclass>
 		</link>
 	</links>
 </package>

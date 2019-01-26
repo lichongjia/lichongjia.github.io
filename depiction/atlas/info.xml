@@ -13,11 +13,21 @@
 		<description>竖直方式显示iOS控制中心的开关,for iOS 10。</description>
 	</descriptionlist>
 	<changelog></changelog>
+		<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>		
+	</screenshots>
 	<links>
 		<link>
-			<name>开发者主页</name>
+			<name> 开发者主页</name>
 			<url>https://antiquebeta.github.io</url>
-			<iconclass>fa fa-home</iconclass>
+			<iconclass>fa fa-code</iconclass>
 		</link>
 	</links>
 </package>

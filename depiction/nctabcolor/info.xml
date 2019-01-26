@@ -25,5 +25,4 @@
 	<changelog>
 		<change>在control文件中添加了运行插件需要的依赖</change>
 	</changelog>
-	<links />
 </package>
