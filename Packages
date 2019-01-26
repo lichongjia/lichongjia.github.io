@@ -65,6 +65,20 @@ Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
 Homepage: https://cydia.angelxwind.net/
 Depiction: https://jianfengzhi.github.io/depiction/?p=appsyncunified
 
+Package: com.jianfengzhi.asupdatehider
+Version: 1.4.1
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
+Architecture: iphoneos-arm
+Filename: deb/asupdatehider_1.4.1.deb
+Size: 144050
+MD5sum: 074163b51283384c68753720f0ed8995
+Description: 隐藏Appstore的升级提示
+Name: ASUpdateHider
+Author: Dulin
+Depiction: https://jianfengzhi.github.io/depiction/?p=asupdatehider
+
 Package: com.jianfengzhi.atlas
 Version: z1.0-1+debug
 Section: Tweaks
