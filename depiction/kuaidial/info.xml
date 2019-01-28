@@ -1,0 +1,41 @@
+<package>
+	<id>com.jianfengzhi.kuaidial</id>
+	<name>KuaiDial</name>
+	<version>1.0.1a2-13</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>KuaiDial电话功能增强</shortDescription>
+	<descriptionlist>
+		<description>功能介绍: (支持iOS 9,兼容支持iOS 10,部分支持iOS 11)</description>
+		<description>- T9快捷拨号，集成到电话拨号键盘；</description>
+		<description>- 显示来去电归属地信息；</description>
+		<description>- 电话和短信界面显示头像；</description>
+		<description>- 修改通话记录条数限制；</description>
+		<description>- 接通震动提醒。</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>设置界面</description>
+			<image>kuaidial1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>归属地设置</description>
+			<image>kuaidial2.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>T9设置</description>
+			<image>kuaidial3.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>T9拨号界面</description>
+			<image>kuaidial4.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>2015-10-29</change>
+		<change>添加iOS 9支持</change>
+	</changelog>
+</package>

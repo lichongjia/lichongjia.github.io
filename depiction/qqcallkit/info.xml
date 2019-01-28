@@ -1,0 +1,23 @@
+<package>
+	<id>com.jianfengzhi.qqcallkit</id>
+	<name>QQcallkit</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>11.0</maxiOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>开启QQ的Callkit通话功能</shortDescription>
+	<descriptionlist>
+		<description>开启QQ的Callkit通话功能</description>
+		<description>支持QQV7.5.8版本及以下</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name> 开发者主页</name>
+			<url>https://ibreak.yourepo.com/pack/qqcallkit</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

@@ -1,0 +1,40 @@
+<package>
+	<id>com.jianfengzhi.safariplus</id>
+	<name>Safari Plus</name>
+	<version>1.6.4</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Safari功能增强</shortDescription>
+	<descriptionlist>
+		<description>Safari功能增强</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>图1</description>
+			<image>safariplus1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>图2</description>
+			<image>safariplus2.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>图3</description>
+			<image>safariplus3.jpg</image>
+		</screenshot>	
+	</screenshots>
+	<links>
+		<link>
+			<name>插件官方介绍页</name>
+			<url>http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp</url>
+			<iconclass>fa fa-book</iconclass>
+		</link>
+		<link>
+			<name> 官方Github页</name>
+			<url>https://github.com/opa334/SafariPlus</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+	</links>
+</package>

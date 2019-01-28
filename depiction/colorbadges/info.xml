@@ -1,0 +1,27 @@
+<package>
+	<id>com.jianfengzhi.colorbadges</id>
+	<name>ColorBadges</name>
+	<version>1.2.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>桌面彩色角标,跟随App图标颜色变化</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>colorbadges1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>colorbadges2.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图3</description>
+			<image>colorbadges3.jpg</image>
+		</screenshot>
+	</screenshots>
+</package>

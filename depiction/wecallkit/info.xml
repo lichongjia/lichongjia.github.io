@@ -1,0 +1,21 @@
+<package>
+	<id>com.jianfengzhi.wecallkit</id>
+	<name>Wecallkit</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>开启微信 Callkit 通话功能</shortDescription>
+	<descriptionlist>
+		<description>开启微信 Callkit 通话功能</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name> 开发者主页</name>
+			<url>https://ibreak.yourepo.com/pack/wecallkit</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

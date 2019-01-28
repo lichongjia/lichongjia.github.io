@@ -1,0 +1,40 @@
+<package>
+	<id>com.jianfengzhi.wechatfix30s</id>
+	<name>WeChat Fix30s</name>
+	<version>1.0.5</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+			<maxiOS>11.0</maxiOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>突破微信可拍摄与上传30秒视频</shortDescription>
+	<descriptionlist>
+		<description>1. 支持小视频可拍摄30秒</description>
+		<description>2. 支持动态视频可拍摄30秒</description>
+		<description>3. 支持朋友圈可上传视频30秒 (无需压缩)</description>
+		<description>4. 支持动态视频可上传视频30秒 (无需压缩)</description>
+		<description>5. 支持朋友圈上传图片可勾选原图</description>
+		<description>6. 支持朋友圈上传视频不损坏画质 (自动优化)</description>
+		<description>7. 支持朋友圈官方视频编辑器 (30s自由控制)</description>
+		<description>8. 支持朋友圈播放视频可快进/后退/暂停</description>
+		<description><![CDATA[
+		【特别注意】<br/>
+		请卸载之前已安装过的两个插件“ WeChat Fix20s ”与“ WeChat Fixrec ”否则会出现冲突。如果使用无效，请关闭其它微信插件的相关功能。请其它转载过插件的源管理们下架 “ WeChat Fix20s ” 与 “ WeChat Fixrec ”这两个不成熟的插件，它是不完美的并存在BUG，以后我只维护更新 “ WeChat Fix30s ” 谢谢合作!!
+		]]>
+		</description>
+	</descriptionlist>
+	<screenshots>	
+	</screenshots>
+	<changelog>
+		<change>1. 支持朋友圈播放视频快进/后退</change>
+		<change>2. 优化小部分代码 (减少Tweak冲突)</change>
+	</changelog>
+	<links>
+		<link>
+			<name> 开发者主页</name>
+			<url>https://ibreak.yourepo.com/pack/wechatfix30s</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

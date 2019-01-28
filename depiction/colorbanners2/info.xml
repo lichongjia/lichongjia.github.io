@@ -1,0 +1,31 @@
+<package>
+	<id>com.jianfengzhi.colorbadges</id>
+	<name>ColorBanners 2</name>
+	<version>1.1.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>自定义通知颜色,跟随App图标颜色变化</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>colorbanners2-1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>colorbanners2-2.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图3</description>
+			<image>colorbanners2-3.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>截图4</description>
+			<image>colorbanners2-4.jpg</image>
+		</screenshot>
+	</screenshots>
+</package>

@@ -1,0 +1,22 @@
+<package>
+	<id>com.jianfengzhi.systeminfo</id>
+	<name>System Info</name>
+	<version>2.0.0-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>3.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>系统信息查看增强</shortDescription>
+	<descriptionlist>
+		<description>系统信息查看增强</description>
+		<description>可在(设置>通用>关于)查看更多项目</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name> BigBoss介绍页</name>
+			<url>http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=systeminfoDp</url>
+			<iconclass>fa fa-book</iconclass>
+		</link>
+	</links>
+</package>

@@ -1,0 +1,22 @@
+<package>
+	<id>com.jianfengzhi.test</id>
+	<name>Test</name>
+	<version>2.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>视频去广告助手,去除启动和播放广告.</shortDescription>
+	<descriptionlist>
+		<description>视频广告助手</description>
+		<description>支持爱奇艺,腾讯视频,优酷,芒果TV,PP视频,乐视</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name> 开发者主页</name>
+			<url>https://ibreak.yourepo.com/pack/videohelper</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

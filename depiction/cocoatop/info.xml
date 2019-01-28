@@ -1,0 +1,24 @@
+<package>
+	<id>com.jianfengzhi.cocoatop64</id>
+	<name>CocoaTop</name>
+	<version>2.0.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+		</firmware>
+	</compatibility>
+	<shortDescription>iOS进程查看器</shortDescription>
+	<descriptionlist>
+		<description>查看iOS的详细进程及占用情况</description>
+		<description>本版为iOS 10专版,iOS 11请到本页链接下载</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name> 开发者主页</name>
+			<url>https://d0m0.github.io</url>
+			<iconclass>fa fa-github</iconclass>
+		</link>
+	</links>
+</package>

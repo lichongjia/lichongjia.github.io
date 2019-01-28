@@ -1,0 +1,31 @@
+<package>
+	<id>com.jianfengzhi.callbar</id>
+	<name>CallBar (iOS 10/9/8/7)</name>
+	<version>1.3-169</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>来电状态栏呼叫</shortDescription>
+	<descriptionlist>
+		<description>状态栏呼叫,让突然来电不再打扰你</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>callbar1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>callbar2.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<links>
+		<link>
+			<name>使用说明</name>
+			<url>https://mrmad.com.tw/cydia-callbar</url>
+			<iconclass>fa fa-book</iconclass>
+		</link>
+	</links>
+</package>

@@ -1,0 +1,49 @@
+<package>
+	<id>com.jianfengzhi.nfcwriterx</id>
+	<name>NFCWriter X</name>
+	<version>0.4-81</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>开启iPhone原生NFC</shortDescription>
+	<descriptionlist>
+		<description>激活iPhone的NFC,最大化利用</description>
+		<description>读取或写入磁卡，甚至还可写入各种Email、电话、网址等讯息</description>
+		<description>支援iPhone 6S和更高机种运行 iOS 10～iOS 11.4 beta3</description>
+		<description><![CDATA[
+特别注意：像是悠游卡、一卡通等有加密型的卡片是无法使用，最主要是因为这些卡片内会有资料全加密与密钥，NFCWriter是无法实现，只能复制一般普通的卡片。
+			]]></description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图3</description>
+			<image>shot3.png</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图4</description>
+			<image>shot4.png</image>
+		</screenshot>		
+	</screenshots>
+	<links>
+		<link>
+			<name> 开发者原插件主页</name>
+			<url>http://limneos.net/cydia/depiction.php?package=net.limneos.nfcwriterx</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+		<link>
+			<name> 使用教程</name>
+			<url>https://mrmad.com.tw/nfcwriterx</url>
+			<iconclass>fa fa-book</iconclass>
+		</link>
+	</links>
+</package>

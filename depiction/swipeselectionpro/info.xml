@@ -1,0 +1,14 @@
+<package>
+	<id>com.jianfengzhi.swipeselection-pro</id>
+	<name>SwipeSelection Pro</name>
+	<version>1.0.3-1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>在原生键盘上移动打字光</shortDescription>
+	<descriptionlist>
+		<description>修复boos原版使用后删除按钮无音效问题</description>
+	</descriptionlist>
+</package>

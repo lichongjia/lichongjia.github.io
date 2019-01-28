@@ -1,0 +1,20 @@
+<package>
+    <id>com.jianfengzhi.t9assistant</id>
+    <name>T9 Assistant</name>
+    <version>1.4.0</version>
+    <compatibility>
+        <firmware>
+            <miniOS>10.0</miniOS>
+        </firmware>
+    </compatibility>
+    <shortDescription>T9拨号助手</shortDescription>
+    <descriptionlist>
+        <description>T9拨号，整合CallAssist和KuaiDial的T9,支持iOS10~11。</description>
+        <description>1.4.0版本如果不好用,可退回1.3.1老版</description>
+    </descriptionlist>
+    <changelog>
+        <change>更新电话助手(CallAssist)到1.3.4</change>
+        <change>剔除T9各种自定义(会有bug),T9无设置。</change>
+        <change>还有个电话助手的bug，通话记录时间是有问题的。若受不了，可回老版本。</change>
+    </changelog>
+</package>

@@ -1,0 +1,47 @@
+<package>
+	<id>com.jianfengzhi.goodges</id>
+	<name>Goodges</name>
+	<version>1.1.5</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>角标提示显示成标签方式来提示</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>goodges1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>goodges2.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图3</description>
+			<image>goodges3.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>截图4</description>
+			<image>goodges4.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>截图5</description>
+			<image>goodges5.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>- Added Harbor compatibility.</change>
+		<change>- Little bug fixes.</change>
+	</changelog>
+	<links>
+		<link>
+			<name> 插件GitHub页</name>
+			<url>https://github.com/faku99/Goodges</url>
+			<iconclass>fa fa-code</iconclass>
+		</link>
+	</links>
+</package>
