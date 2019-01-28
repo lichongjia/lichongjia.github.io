@@ -273,12 +273,13 @@ Depends:
 Conflicts: ru.domo.cocoatop
 Architecture: iphoneos-arm
 Filename: deb/cocoatop_2.0.2.deb
-Size: 118892
-MD5sum: 98ead1bf02c79e9641d18e40445a5849
+Size: 118848
+MD5sum: bb091a4aa1703ee758bad47d9b449975
 Description: iOS进程查看器(64-bit)
 Name: CocoaTop
 Author: Domo
 Depiction: https://jianfengzhi.github.io/depiction/?p=cocoatop
+Icon: file:///Applications/CocoaTop.app/Icon-Small@2x.png
 
 Package: com.jianfengzhi.colorbadges
 Version: 1.2.0
@@ -303,8 +304,8 @@ Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, or
 Conflicts: com.golddavid.colorbanners, com.repo.xarold.com.colorbanners, com.golddavid.colorbanners-cb
 Architecture: iphoneos-arm
 Filename: deb/colorbanners2_1.1.1.deb
-Size: 657236
-MD5sum: 8874d674d56639d3608e2004a67ec71c
+Size: 657216
+MD5sum: 066e01c49c7ff25f6ab5be50c4db6cf8
 Description: 通知颜色多彩化
 Name: ColorBanners 2
 Author: David Goldman
@@ -532,14 +533,14 @@ Depends: firmware (>= 8.0), mobilesubstrate, org.thebigboss.libcolorpicker, appl
 Conflicts: com.spiritoflogic.aeternum, com.repo.xarold.com.aeternum, com.sull.aeternum, com.hackyouriphone.aeternum, com.sull.aeternum, com.iphonecake.aeternum
 Architecture: iphoneos-arm
 Filename: deb/goodges_1.1.5.deb
-Size: 58830
-MD5sum: fb828b211d44b474c2a5beae93ba627c
+Size: 60220
+MD5sum: fd9f74729b89eb7f5b8c771d6151157d
 Description: 角标提示显示成标签方式来提示
 Name: Goodges
 Author: faku99 <faku99dev@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=goodgesDp
 Depiction: https://jianfengzhi.github.io/depiction/?p=goodges
-Icon: file:///Library/PreferenceBundles/GGPrefs.bundle/images/icon@2x.png
+Icon: file:///Library/PreferenceBundles/GoodgesPrefs.bundle/images/icon@2x.png
 
 Package: com.jianfengzhi.gpscheat
 Version: 1.1-5
@@ -801,6 +802,22 @@ Name: NFCWriter X
 Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=nfcwriterx
 Icon: file:///Applcations/NFCWriter.app/icon@2x.png
+
+Package: com.jianfengzhi.nosubstitute-electra
+Version: 1.0-1
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Conflicts: netskao.nosubstrate-cydiasubstrate
+Architecture: iphoneos-arm
+Filename: deb/nosubstitute_1.0-1.deb
+Size: 8862
+MD5sum: def965f9fdd2bb5db5b2123794b10577
+Description: 屏蔽越狱,Electra越狱专用！
+Name: NoSubstitute (Electra)
+Author: Dagzer
+Depiction: https://jianfengzhi.github.io/depiction/?p=nosubstitute-electra
+Icon: file:///Library/PreferenceBundles/NoSubstitute.bundle/Card@2x.png
 
 Package: com.jianfengzhi.oldpackage
 Version: 1.0.0-1
@@ -1222,6 +1239,22 @@ Description: 打开微信的CallKit功能
 Name: WeChatCallKit
 Author: Jianan Tian
 Depiction: https://jianfengzhi.github.io/depiction/?p=wechatcallkit
+
+Package: netskao.nosubstrate-cydiasubstrate
+Version: 1.3
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: netskao.nosubstrate-electra
+Architecture: iphoneos-arm
+Filename: deb/nosubstrate_1.3.deb
+Size: 15348
+MD5sum: 08fd7bc57719010e890ac67d069fd0c3
+Description: 屏蔽越狱,Cydia Substrate专用！
+Name: NoSubstrate (Cydia Substrate)
+Author: Janosch, Skylerk99
+Depiction: https://jianfengzhi.github.io/depiction/?p=nosubstrate-cydiasubstrate
+Icon: file:///Library/PreferenceBundles/NoSub.bundle/Card@2x.png
 
 Package: preferenceloader
 Version: 2.2.4-alpha1
