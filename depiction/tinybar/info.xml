@@ -1,0 +1,20 @@
+<package>
+	<id>com.jianfengzhi.tinybar</id>
+	<name>Tinybar</name>
+	<version>0.2.0</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>10.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>通知缩小到状态栏</shortDescription>
+	<descriptionlist>
+		<description>Tinybar状态栏通知,支持iOS 10,效果参看截图</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>示意图</description>
+			<image>shot.gif</image>
+		</screenshot>			
+	</screenshots>
+</package>
