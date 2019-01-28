@@ -47,6 +47,20 @@ Name: redeb
 Author: T.Herak <50dc856b@opayq.com>
 Depiction: https://jfzcydia.github.io/depiction/redeb/index.html
 
+Package: com.jianfengzhi.allowkeyboard
+Version: 1.0
+Section: System
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/allowkeyboard_1.0.deb
+Size: 3234
+MD5sum: d4e4984e61339d9597fa1e72138f2aee
+Description: 允许密码框使用第三方输入法,iOS 8/9/10/11
+Name: Allowkeyboard
+Author: iBreak <ibreak@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=allowkeyboard
+
 Package: com.jianfengzhi.appsyncunified
 Version: 31.1
 Section: Tweaks
@@ -92,6 +106,38 @@ Description: 竖直方式来显示控制中心的开关(iOS 10)
 Name: Atlas
 Author: Antique <boernai290@gmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=atlas
+
+Package: com.jianfengzhi.audiorecorder
+Version: 1.9-2
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Conflicts: net.limneos.callrecorder
+Architecture: iphoneos-arm
+Filename: deb/audiorecorder_1.9-2.deb
+Size: 2654102
+MD5sum: 6e883a3d6eea7d97b234fa32c09a3ead
+Description: iOS通话录音
+Name: AudioRecorder 2 (iOS 8,9,10,11)
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=audiorecorder
+Icon: file:///Applications/AudioRecorder.app/icon-72.png
+
+Package: com.jianfengzhi.autoanswer8
+Version: 0.1-26
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 8.0), com.rpetrich.rocketbootstrap
+Conflicts: net.limneos.autoanswer, com.repo.xarold.com.autoanswer
+Architecture: iphoneos-arm
+Filename: deb/autoanswer8_0.1-26.deb
+Size: 54646
+MD5sum: 0690374377b1e2d75d6f9241e205b670
+Description: iOS自动应答
+Name: AutoAnswer8 (iOS 10/9/8)
+Author: Elias Limneos
+Depiction: https://jianfengzhi.github.io/depiction/?p=autoanswer8
+Icon: file:///Library/PreferenceBundles/AutoAnswer.bundle/AutoAnswer@2x.png
 
 Package: com.jianfengzhi.auxolite
 Version: 1.4-2
@@ -155,6 +201,38 @@ Name: CacheClearer
 Author: Ryan Petrich <rpetrich+cacheclearer@gmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=cacheclearer
 
+Package: com.jianfengzhi.callassist
+Version: 1.3-4
+Priority: optional
+Section: System
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/callassist_1.3-4.deb
+Size: 147432
+MD5sum: 1f8b129e57a45c3f75f7b680bdbad8a7
+Description: 电话助手
+Name: CallAssist
+Author: xybp888 <8657156@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=callassist
+Icon: file:///Library/PreferenceBundles/zhendong.bundle/zhendongIcon@2x.png
+
+Package: com.jianfengzhi.callbar7
+Version: 1.3-169
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate (>= 0.9.5100), firmware (>= 7.0), preferenceloader (>= 2.2.2), com.rpetrich.rocketbootstrap ( >= 1.0.4)
+Conflicts: org.thebigboss.callbar, com.repo.xarold.com.callbar
+Architecture: iphoneos-arm
+Filename: deb/callbar_1.3-169.deb
+Size: 1159356
+MD5sum: 3043368c9e17f5061d6fe5c1bd39e171
+Description: 来电状态栏呼叫
+Name: CallBar (iOS 10/9/8/7)
+Author: Elias Limneos & Josh Tucker
+Depiction: https://jianfengzhi.github.io/depiction/?p=callbar7
+Icon: file:///Library/PreferenceBundles/CallBar.bundle/CallBar@2x.png
+
 Package: com.jianfengzhi.cheader
 Version: 0.1.2-3
 Section: Tweaks
@@ -186,6 +264,52 @@ Name: Chinese Calendar Pro for Notification Center
 Author: Tony Li
 Depiction: https://jianfengzhi.github.io/depiction/?p=chinesecalendarpro
 Icon: file:///Library/WeeLoader/Plugins/ChineseCalendarPro.bundle/Icon-Small@2x.png
+
+Package: com.jianfengzhi.cocoatop64
+Version: 2.0.2
+Section: Utilities
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: 
+Conflicts: ru.domo.cocoatop
+Architecture: iphoneos-arm
+Filename: deb/cocoatop_2.0.2.deb
+Size: 118892
+MD5sum: 98ead1bf02c79e9641d18e40445a5849
+Description: iOS进程查看器(64-bit)
+Name: CocoaTop
+Author: Domo
+Depiction: https://jianfengzhi.github.io/depiction/?p=cocoatop
+
+Package: com.jianfengzhi.colorbadges
+Version: 1.2.0
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/colorbadges_1.2.0.deb
+Size: 53066
+MD5sum: ebc2017adc3e6119c33a76556065abf5
+Description: 彩色角标
+Name: ColorBadges
+Author: David Goldman
+Depiction: https://jianfengzhi.github.io/depiction/?p=colorbadges
+Icon: file:///Library/PreferenceBundles/cbprefs.bundle/CBCydiaIcon.png
+
+Package: com.jianfengzhi.colorbanners2
+Version: 1.1.1
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, org.thebigboss.libcolorpicker (>= 1.1)
+Conflicts: com.golddavid.colorbanners, com.repo.xarold.com.colorbanners, com.golddavid.colorbanners-cb
+Architecture: iphoneos-arm
+Filename: deb/colorbanners2_1.1.1.deb
+Size: 657236
+MD5sum: 8874d674d56639d3608e2004a67ec71c
+Description: 通知颜色多彩化
+Name: ColorBanners 2
+Author: David Goldman
+Depiction: https://jianfengzhi.github.io/depiction/?p=colorbanners2
+Icon: file:///Library/PreferenceBundles/ColorBanners2Prefs.bundle/ColorBanners@2x.png
 
 Package: com.jianfengzhi.conditionalwifi2
 Version: 1.0.0-1
@@ -267,6 +391,20 @@ Author: Elias Limneos <iphone@limneos.net>
 Depiction: https://jianfengzhi.github.io/depiction/?p=datausagemonitor
 Icon: file:///Library/PreferenceBundles/DataUsagePrefs.bundle/DataUsage@2x.png
 
+Package: com.jianfengzhi.disableuicache
+Version: 1.0
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/disableuicache_1.0.deb
+Size: 4164
+MD5sum: dbdfa767292d0c6624203837c95981f8
+Description: 禁用Cydia安装或卸载插件后Cydia自动重建源列表,无设置界面
+Name: DisableUICache
+Author: Null
+Depiction: https://jianfengzhi.github.io/depiction/?p=disableuicache
+
 Package: com.jianfengzhi.dock
 Version: 2.2.11
 Section: Tweaks
@@ -299,6 +437,20 @@ Name: exKeyboard
 Author: PoomSmart <poomst@hotmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=exkeyboard
 Icon: file:///Library/PreferenceLoader/Preferences/exKeyboard/Icon@2x.png
+
+Package: com.jianfengzhi.eyeplugs
+Version: 1.3.0-6
+Priority: optional
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate, applist, preferenceloader
+Architecture: iphoneos-arm
+Filename: deb/eyeplugs_1.3.0-6.deb
+Size: 30850
+MD5sum: aeafb47488963f87e0f25406a85662c4
+Description: 通知屏蔽游戏必备,在运行某些应用中自动屏蔽其它应用发出的通知
+Name: Eyeplugs
+Author: SummerTriangle <summertriangle.dev@gmail.com>
+Icon: file:///Library/PreferenceBundles/VoltagePreferences.bundle/cPreferencesIcon@2x.png
 
 Package: com.jianfengzhi.filza
 Version: 3.5.2-1
@@ -371,6 +523,39 @@ Homepage: http://rpetri.ch/cydia/flipcontrolcenter/
 Depiction: https://jianfengzhi.github.io/depiction/?p=flipcontrolcenter
 Icon: file:///Library/PreferenceLoader/Preferences/FlipControlCenter@2x.png
 
+Package: com.jianfengzhi.goodges
+Version: 1.1.5
+Priority: optional
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 8.0), mobilesubstrate, org.thebigboss.libcolorpicker, applist, preferenceloader
+Conflicts: com.spiritoflogic.aeternum, com.repo.xarold.com.aeternum, com.sull.aeternum, com.hackyouriphone.aeternum, com.sull.aeternum, com.iphonecake.aeternum
+Architecture: iphoneos-arm
+Filename: deb/goodges_1.1.5.deb
+Size: 58830
+MD5sum: fb828b211d44b474c2a5beae93ba627c
+Description: 角标提示显示成标签方式来提示
+Name: Goodges
+Author: faku99 <faku99dev@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=goodgesDp
+Depiction: https://jianfengzhi.github.io/depiction/?p=goodges
+Icon: file:///Library/PreferenceBundles/GGPrefs.bundle/images/icon@2x.png
+
+Package: com.jianfengzhi.gpscheat
+Version: 1.1-5
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Architecture: iphoneos-arm
+Filename: deb/gpscheat_1.1-5.deb
+Size: 133880
+MD5sum: 8ab9f2137290beed05a67e8dd9dd15ce
+Description: 虚拟定位,支持一键开关Switch
+Name: GPSCheat
+Author: Minuit
+Depiction: https://jianfengzhi.github.io/depiction/?p=gpscheat
+Icon: file:///Library/PreferenceBundles/GPSCheatSettings.bundle/icon@2x.png
+
 Package: com.jianfengzhi.i8corners
 Version: 0.12
 Section: Tweaks
@@ -422,6 +607,22 @@ Homepage: http://ib-soft.net/icleaner
 Depiction: https://jianfengzhi.github.io/depiction/?p=icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon-58.png
 
+Package: com.jianfengzhi.icontool
+Version: 1.9-7
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2), com.ericasadun.utilities
+Conflicts: com.rpetrich.iconrenamer
+Architecture: iphoneos-arm
+Filename: deb/icontool_1.9-7.deb
+Size: 253480
+MD5sum: f03eca1ee8f9345f7bf0fc31219dfe2e
+Description: App图标菜单增强
+Name: Icon Tool
+Author: ioshack
+Depiction: https://jianfengzhi.github.io/depiction/?p=icontool
+Icon: file:///Library/PreferenceLoader/Preferences/IconTool/IconTool@2x.png
+
 Package: com.jianfengzhi.ifile
 Version: 2.2.0-1
 Section: Utilities
@@ -457,6 +658,24 @@ Author: chpwn <repo@hackyouriphone.org>
 Depiction: https://jianfengzhi.github.io/depiction/?p=infinidock
 Icon: file:///Library/PreferenceLoader/Preferences/Infinidock@2x.png
 
+Package: com.jianfengzhi.kuaidial
+Version: 1.0.1a2-13
+Priority: optional
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 7.0)
+Conflicts: kuaidial-beta
+Replaces: kuaidial-beta
+Architecture: iphoneos-arm
+Filename: deb/kuaidial_1.0.1a2-13.deb
+Size: 575648
+MD5sum: 84921b5a15ff26fcc0c619ebf58aaee5
+Description: 一款电话功能增强插件
+Name: KuaiDial
+Author: linspike <linspike@gmail.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=kuaidial
+Icon: file:///System/Library/PreferenceBundles/KuaiDialSettings.bundle/icon@2x.png
+
 Package: com.jianfengzhi.liberty
 Version: 0.2.10
 Section: Tweaks
@@ -474,17 +693,35 @@ Depiction: https://jianfengzhi.github.io/depiction/?p=liberty
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref@3x.png
 
 Package: com.jianfengzhi.localiapstore
+Version: 1.4-4
+Priority: optional
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Conflicts: com.jianfengzhi.localiapstore6
+Architecture: iphoneos-arm
+Filename: deb/localiapstore_1.4-4.deb
+Size: 42364
+MD5sum: e3863f695dbd5514c08dc618efa57b6f
+Description: 内购破解,支持iOS7以上
+Name: LocalIAPStore
+Author: PanguTeam
+Depiction: https://jianfengzhi.github.io/depiction/?p=localiapstore
+Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
+
+Package: com.jianfengzhi.localiapstore6
 Version: 1.4-1
 Priority: optional
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
+Conflicts: com.jianfengzhi.localiapstore
 Architecture: iphoneos-arm
-Filename: deb/localiapstore_1.4-1.deb
-Size: 42180
-MD5sum: e33c76db455118eba8f0995ee0e29e02
+Filename: deb/localiapstore6_1.4-2.deb
+Size: 42252
+MD5sum: 65cee88bccc7be5d181c399019523079
 Description: 内购神器，支持 iOS 5.1.1- iOS7.1。
-Name: LocalIAPStore
+Name: LocalIAPStore for iOS6
 Author: anondev
 Depiction: https://jianfengzhi.github.io/depiction/?p=localiapstore
 Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
@@ -549,6 +786,22 @@ Name: New Package
 Author: JFZ <chongjialee@gmail.com>
 Depiction: https://jfzcydia.github.io/depiction/?p=newpackage
 
+Package: com.jianfengzhi.nfcwriterx
+Version: 0.4-81
+Section: Utilities
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate, net.limneos.libbulletin
+Conflicts: net.limneos.nfcwriter
+Architecture: iphoneos-arm
+Filename: deb/nfcwriterx_0.4-81.deb
+Size: 492974
+MD5sum: 57158b095d4d1d90d163986febd9d910
+Description: 开启iPhone原生NFC
+Name: NFCWriter X
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=nfcwriterx
+Icon: file:///Applcations/NFCWriter.app/icon@2x.png
+
 Package: com.jianfengzhi.oldpackage
 Version: 1.0.0-1
 Section: Tweaks
@@ -562,6 +815,21 @@ Description: This is a sample old package.Firmware should be less than 7.0
 Name: Old Package
 Author: JFZ <chongjialee@gmail.com>
 Depiction: https://jfzcydia.github.io/depiction/?p=oldpackage
+
+Package: com.jianfengzhi.photomanager
+Version: 1.3.3
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: deb/photomanager_1.3.3.deb
+Size: 128716
+MD5sum: 560b36ba59a0463ef89f2d49ed5ed6e6
+Description: 自带相册增强,支持加密
+Name: PhotoManager
+Author: Frozen Penguin
+Depiction: https://jianfengzhi.github.io/depiction/?p=photomanager
+Icon: file:///Library/PreferenceBundles/photomanagerprefs.bundle/icon@2x.png
 
 Package: com.jianfengzhi.pphelper
 Version: 0.995
@@ -578,6 +846,20 @@ Author: Jun
 Homepage: http://apt.25pp.com/htm/25pp.htm
 Depiction: https://jianfengzhi.github.io/depiction/?p=pphelper
 Icon: file:///Applications/PPHelper.app/iPhoneAppIcon.png
+
+Package: com.jianfengzhi.qqcallkit
+Version: 1.0
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/qqcallkit_1.0.deb
+Size: 4142
+MD5sum: 574d864e79eeee93e396d20d2a72e112
+Description: 开启QQ的Callkit通话功能,V7.5.8 & Lower
+Name: QQCallkit
+Author: iBreak <ibreak2019@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=qqcallkit
 
 Package: com.jianfengzhi.quickdo
 Version: 3.9.4
@@ -674,14 +956,29 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common, org.thebigboss.libcolorpicker, net.limneos.libbulletin, com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm
 Filename: deb/safariplus_1.6.4.deb
-Size: 419876
-MD5sum: 986b8282506bbd392762e9eb82229f02
-Description: Safari各种增强功能!
+Size: 420024
+MD5sum: dd1ddf67220640a7a7a6b829d77ae3c9
+Description: Safari功能增强!
 Name: Safari Plus
 Author: opa334 <opa334@protonmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=safariplusDp
 Depiction: https://jianfengzhi.github.io/depiction/?p=safariplus
 Icon: file:///Library/PreferenceBundles/SafariPlusPrefs.bundle/SPRootIcon@2x.png
+
+Package: com.jianfengzhi.safariupro
+Version: 1.1
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/safariupro_1.1.deb
+Size: 116672
+MD5sum: da4b1ded189400fb55253d1e14c40a21
+Description: 增强Safari浏览器功能
+Name: SafariUnleashed PRO
+Author: Rishanan
+Depiction: https://jianfengzhi.github.io/depiction/?p=safariupro
+Icon: file:///Library/PreferenceBundles/safariupro.bundle/icon@2x.png
 
 Package: com.jianfengzhi.shadowsocks
 Version: 0.3.2-3
@@ -714,6 +1011,37 @@ Author: r_plus
 Depiction: https://jianfengzhi.github.io/depiction/?p=sleipnizer3
 Icon: file:///Library/PreferenceBundles/SleipnizerSettings.bundle/Sleipnizer@2x.png
 
+Package: com.jianfengzhi.smartlpm
+Version: 1.3.0-1
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/smartlpm_1.3.0-1.deb
+Size: 146482
+MD5sum: c629460632c664324e43706873f39942
+Description: 启用智能低电量模式
+Name: SmartLPM
+Author: smokin1337
+Depiction: https://jianfengzhi.github.io/depiction/?p=smartlpm
+Icon: file:///Library/PreferenceBundles/SmartLPM.bundle/icon@2x.png
+
+Package: com.jianfengzhi.swipeselection-pro
+Version: 1.0.3-1
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Conflicts: com.iky1e.swipeselection
+Architecture: iphoneos-arm
+Filename: deb/swipeselection-pro_1.0.3-1.deb
+Size: 30932
+MD5sum: bacd8776e56c610b5959b3a56bf5c57c
+Description: 在原生键盘上移动打字光标
+Name: SwipeSelection Pro
+Author: iKy1e (Kyle Howells)
+Depiction: https://jianfengzhi.github.io/depiction/?p=swipeselectionpro
+Icon: file:///Library/PreferenceBundles/SwipeSelectionPro.bundle/SwipeSelectionPro@2x.png
+
 Package: com.jianfengzhi.switchercleaner
 Version: 1.2.3-1
 Priority: optional
@@ -730,6 +1058,35 @@ Author: r_plus <anasthasia.r+cleaner@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=switchercleanerDp
 Depiction: https://jianfengzhi.github.io/depiction/?p=switchercleaner
 Icon: file:///Library/PreferenceLoader/Preferences/SwitcherCleaner@2x.png
+
+Package: com.jianfengzhi.systeminfo
+Version: 2.0.0-1
+Priority: optional
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate, firmware (>= 3.0)
+Architecture: iphoneos-arm
+Filename: deb/systeminfo_2.0.0-1.deb
+Size: 178546
+MD5sum: f8da72d2e5cabb2d09580178af34c621
+Description: 系统信息查看增强(设置>通用>关于)
+Name: System Info
+Author: ARX8x <arx8@icloud.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=systeminfo
+
+Package: com.jianfengzhi.t9assistant
+Version: 1.4.0
+Section: System
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 10.0),mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm
+Filename: deb/t9assistant_1.4.0.deb
+Size: 477038
+MD5sum: 79ee76cb039ba4ec33bc955b7f4adc34
+Description: T9拨号助手整合版(整合Assistant和KuaiDial)
+Name: T9 Assistant
+Author: JFZ <jianfengzhi@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=t9assistant
 
 Package: com.jianfengzhi.tage
 Version: 1.2.2-1
@@ -792,6 +1149,20 @@ Homepage: http://www.clezz.com/touchr/cydia_page.html?v=1.0.4~beta1
 Depiction: https://jianfengzhi.github.io/depiction/?p=touchr
 Icon: file:///Library/PreferenceBundles/TouchrSettings.bundle/Icon-small@2x.png
 
+Package: com.jianfengzhi.videohelper
+Version: 1.0.0beta
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/videohelper_1.0.0beta.deb
+Size: 266394
+MD5sum: 5cb4de06d6510773d8033dd717adae0d
+Description: 视频去广告助手,支持iOS 9/10/11
+Name: Video Helper
+Author: iBreak <ibreak2019@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=videohelper
+
 Package: com.jianfengzhi.virtualmemory
 Version: 2.2-beta
 Priority: standard
@@ -808,6 +1179,35 @@ Name: VirtualMemory
 Author: hcw1588
 Depiction: https://jianfengzhi.github.io/depiction/?p=virtualmemory
 Icon: file:///Library/PreferenceLoader/Preferences/VirtualMemory/icon.png
+
+Package: com.jianfengzhi.voicechanger
+Version: 1.1-28
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader, gsc.telephony, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Filename: deb/voicechanger_1.1-28.deb
+Size: 64936
+MD5sum: 67e06840aae08637c58ce6bdd2076108
+Description: iOS变声器
+Name: VoiceChanger
+Author: Elias Limneos
+Depiction: https://jianfengzhi.github.io/depiction/?p=voicechanger
+Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
+
+Package: com.jianfengzhi.wecallkit
+Version: 1.0
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/wecallkit_1.0.deb
+Size: 3536
+MD5sum: 97e908e0eed7298c9437920616f9993a
+Description: 开启微信Callkit通话功能
+Name: WeCallkit
+Author: iBreak <ibreak2019@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=wecallkit
 
 Package: com.jianfengzhi.wechatcallkit
 Version: 0.0.1
