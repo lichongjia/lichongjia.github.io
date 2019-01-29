@@ -556,6 +556,20 @@ Homepage: http://rpetri.ch/cydia/flipcontrolcenter/
 Depiction: https://jianfengzhi.github.io/depiction/?p=flipcontrolcenter
 Icon: file:///Library/PreferenceLoader/Preferences/FlipControlCenter@2x.png
 
+Package: com.jianfengzhi.fullsafari
+Version: 1.2
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/fullsafari_1.2.deb
+Size: 8678
+MD5sum: 05d5c1103040823740884f4e585284c1
+Description: 在iPhone版的Safari浏览器上启用iPad样式的tab标签,无设置项
+Name: FullSafari
+Author: bensge <benno@bensge.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=fullsafari
+
 Package: com.jianfengzhi.goodges
 Version: 1.1.5
 Priority: optional
@@ -765,8 +779,8 @@ Section: Themes
 Maintainer: JFZ <jianfengzhi@qq.com>
 Architecture: iphoneos-arm
 Filename: deb/lotus_1.2.deb
-Size: 9021612
-MD5sum: 3837f75f921942fa4c8dfa7172249632
+Size: 9081792
+MD5sum: ac91db6145c313886adaac3b4562b1c6
 Description: 漂亮的Lotus主题
 Name: Lotus
 Author: JFZ <jianfengzhi@qq.com>
