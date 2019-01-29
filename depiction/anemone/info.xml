@@ -1,0 +1,22 @@
+<package>
+	<id>com.jianfengzhi.Anemone</id>
+	<name>Anemone</name>
+	<version>2.1.8-2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Anemone主题工具</shortDescription>
+	<descriptionlist>
+		<description>已加入新版字体无法加载的补丁文件</description>
+		<description>加入英文和中文字体模版,参看使用教程</description>
+	</descriptionlist>
+	<links>
+		<link>
+			<name> 使用教程</name>
+			<url>https://mrmad.com.tw/ios11-change-font</url>
+			<iconclass>fa fa-book</iconclass>
+		</link>
+	</links>
+</package>

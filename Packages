@@ -17,6 +17,19 @@ Homepage: https://rpetri.ch/cydia/flipswitch/beta/
 Depiction: https://jianfengzhi.github.io/depiction/?p=flipswitch
 Icon: file:///Applications/Preferences.app/icon-table.png
 
+Package: com.iosdesigner.iosmojave
+Version: 1.0.0
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Architecture: iphoneos-arm
+Filename: deb/iosmojave_1.0.0.deb
+Size: 11143094
+MD5sum: b41c9d1d4930d3188dcaa4e09a599462
+Description: iOS Mojave主题
+Name: iOS Mojave
+Author: iOSDesigner <andereder@yahoo.de>
+Depiction: https://jianfengzhi.github.io/depiction/?p=iosmojave
+
 Package: com.jfzcydia.perl
 Version: 5.22.0
 Section: Development
@@ -60,6 +73,27 @@ Description: 允许密码框使用第三方输入法,iOS 8/9/10/11
 Name: Allowkeyboard
 Author: iBreak <ibreak@qq.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=allowkeyboard
+
+Package: com.jianfengzhi.anemone
+Version: 2.1.8-2
+Priority: optional
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap, pincrush
+Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethemed.iconbundles, com.idd.iconomatic
+Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
+Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
+Architecture: iphoneos-arm
+Filename: deb/anemone_2.1.8-2.deb
+Size: 1866834
+Installed-Size: 8112
+MD5sum: 269418347010591c5cec808bdab95f9e
+Description: Anemone主题工具,修复字体加载和加入字体模板
+Name: Anemone
+Author: AnemoneTeam <anemonetheming@gmail.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
+Depiction: https://jianfengzhi.github.io/depiction/?p=anemone
+Icon: file:///Applications/Anemone.app/icon.png
 
 Package: com.jianfengzhi.appsyncunified
 Version: 31.1
@@ -107,22 +141,6 @@ Name: Atlas
 Author: Antique <boernai290@gmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=atlas
 
-Package: com.jianfengzhi.audiorecorder
-Version: 1.9-2
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Conflicts: net.limneos.callrecorder
-Architecture: iphoneos-arm
-Filename: deb/audiorecorder_1.9-2.deb
-Size: 2654102
-MD5sum: 6e883a3d6eea7d97b234fa32c09a3ead
-Description: iOS通话录音
-Name: AudioRecorder 2 (iOS 8,9,10,11)
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=audiorecorder
-Icon: file:///Applications/AudioRecorder.app/icon-72.png
-
 Package: com.jianfengzhi.autoanswer8
 Version: 0.1-26
 Section: Tweaks
@@ -131,8 +149,8 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>
 Conflicts: net.limneos.autoanswer, com.repo.xarold.com.autoanswer
 Architecture: iphoneos-arm
 Filename: deb/autoanswer8_0.1-26.deb
-Size: 54646
-MD5sum: 0690374377b1e2d75d6f9241e205b670
+Size: 55156
+MD5sum: a137386f2327343aecb63c1e5cd4b414
 Description: iOS自动应答
 Name: AutoAnswer8 (iOS 10/9/8)
 Author: Elias Limneos
@@ -153,6 +171,20 @@ Name: Auxo Lite
 Author: A3tweaks <A3tweaks@gmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=auxolite
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+
+Package: com.jianfengzhi.berry
+Version: 1.4.2
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 9.0)
+Architecture: iphoneos-arm
+Filename: deb/berry_1.4.2.deb
+Size: 5671120
+MD5sum: 812ca5eca54660aee5950df8ea02f349
+Description: Berry主题
+Name: Berry
+Author: Paz Kachlon
+Depiction: https://jianfengzhi.github.io/depiction/?p=berry
 
 Package: com.jianfengzhi.betterfive
 Version: 1.0
@@ -225,8 +257,8 @@ Depends: mobilesubstrate (>= 0.9.5100), firmware (>= 7.0), preferenceloader (>= 
 Conflicts: org.thebigboss.callbar, com.repo.xarold.com.callbar
 Architecture: iphoneos-arm
 Filename: deb/callbar_1.3-169.deb
-Size: 1159356
-MD5sum: 3043368c9e17f5061d6fe5c1bd39e171
+Size: 1159570
+MD5sum: c8b26b8d368a5f0b2d0d926fa0a80d7d
 Description: 来电状态栏呼叫
 Name: CallBar (iOS 10/9/8/7)
 Author: Elias Limneos & Josh Tucker
@@ -240,8 +272,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0), preferenceloader
 Architecture: iphoneos-arm
 Filename: deb/cheader_0.1.2-3.deb
-Size: 29278
-MD5sum: 69de1cda82ec12ff92bc447c7b2d40a8
+Size: 29428
+MD5sum: 3e86d541fe78feca0359a45e192bf1fb
 Description: 横幅消息头部标题多彩化
 Name: Cheader
 Author: ridn <appleidname@yahoo.com>
@@ -304,8 +336,8 @@ Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, or
 Conflicts: com.golddavid.colorbanners, com.repo.xarold.com.colorbanners, com.golddavid.colorbanners-cb
 Architecture: iphoneos-arm
 Filename: deb/colorbanners2_1.1.1.deb
-Size: 657216
-MD5sum: 066e01c49c7ff25f6ab5be50c4db6cf8
+Size: 657210
+MD5sum: d1431e2f49fc8be7d56daaf19edff99a
 Description: 通知颜色多彩化
 Name: ColorBanners 2
 Author: David Goldman
@@ -479,8 +511,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0)
 Architecture: iphoneos-arm
 Filename: deb/fingertouch_0.0.6b2.deb
-Size: 19096
-MD5sum: d56f23f8facef7b725be5175b913ec97
+Size: 19062
+MD5sum: 687208916ac54abaaba070837f9f68d6
 Description: 虚拟Home键
 Name: FingerTouch
 Author: Michele Primavera <support@dreamcode.it>
@@ -515,8 +547,8 @@ Conflicts: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cct
 Replaces: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
 Architecture: iphoneos-arm
 Filename: deb/flipcontrolcenter_1.0.4.deb
-Size: 101662
-MD5sum: 26c7253fa017310fb0e503ad971f46e9
+Size: 101696
+MD5sum: 7372bfffc4e8d129fae266f9411a5da3
 Description: 自定义控制中心开关
 Name: FlipControlCenter
 Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
@@ -727,6 +759,19 @@ Author: anondev
 Depiction: https://jianfengzhi.github.io/depiction/?p=localiapstore
 Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
 
+Package: com.jianfengzhi.lotus
+Version: 1.2
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Architecture: iphoneos-arm
+Filename: deb/lotus_1.2.deb
+Size: 9021612
+MD5sum: 3837f75f921942fa4c8dfa7172249632
+Description: 漂亮的Lotus主题
+Name: Lotus
+Author: JFZ <jianfengzhi@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=lotus
+
 Package: com.jianfengzhi.maize10
 Version: 1.3.1-01
 Section: Tweaks
@@ -773,19 +818,44 @@ Author: Antique
 Depiction: https://jianfengzhi.github.io/depiction/?p=minicc
 Icon: file:///Library/PreferenceBundles/MiniCC.bundle/icon@2x.png
 
-Package: com.jianfengzhi.newpackage
-Version: 2.0.0-1
-Section: Tweaks
+Package: com.jianfengzhi.minimal
+Version: 1.0.0
+Section: Themes
 Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>=7.0), mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/newpackage_2.0.0-1.deb
-Size: 866
-MD5sum: 9e38c5447a4b0a21349609c754656f8d
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: JFZ <chongjialee@gmail.com>
-Depiction: https://jfzcydia.github.io/depiction/?p=newpackage
+Filename: deb/minimal_1.0.0.deb
+Size: 4663776
+MD5sum: b4134935e7b1460814000beb5106be0c
+Description: Minimal主题
+Name: Minimal
+Author: iOSDesigner
+Depiction: https://jianfengzhi.github.io/depiction/?p=minimal
+
+Package: com.jianfengzhi.muffin
+Version: 1.3
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Architecture: iphoneos-arm
+Filename: deb/muffin_1.3.deb
+Size: 26290996
+MD5sum: 4053c7918f0168cc1ac4a9049aa13152
+Description: Flat风格主题
+Name: Muffin
+Author: ArkLotif
+Depiction: https://jianfengzhi.github.io/depiction/?p=muffin
+
+Package: com.jianfengzhi.muze4
+Version: 1.03
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Architecture: iphoneos-arm
+Filename: deb/muze4_1.0.3.deb
+Size: 25168754
+MD5sum: 0037f8b2d0a75dd7934b003d53c4ee3a
+Description: Muze4主题
+Name: Muze 4
+Author: Kogulan (Purdix)
+Depiction: https://jianfengzhi.github.io/depiction/?p=muze4
 
 Package: com.jianfengzhi.nfcwriterx
 Version: 0.4-81
@@ -818,20 +888,6 @@ Name: NoSubstitute (Electra)
 Author: Dagzer
 Depiction: https://jianfengzhi.github.io/depiction/?p=nosubstitute-electra
 Icon: file:///Library/PreferenceBundles/NoSubstitute.bundle/Card@2x.png
-
-Package: com.jianfengzhi.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (<=7.0)
-Architecture: iphoneos-arm
-Filename: deb/oldpackage_1.0.0-1.deb
-Size: 874
-MD5sum: 9b146c19db674504a9fa4f6339434882
-Description: This is a sample old package.Firmware should be less than 7.0
-Name: Old Package
-Author: JFZ <chongjialee@gmail.com>
-Depiction: https://jfzcydia.github.io/depiction/?p=oldpackage
 
 Package: com.jianfengzhi.photomanager
 Version: 1.3.3
@@ -989,13 +1045,27 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/safariupro_1.1.deb
-Size: 116672
-MD5sum: da4b1ded189400fb55253d1e14c40a21
+Size: 116662
+MD5sum: 00bd79217a9427258617fcc3dd5c3ee0
 Description: 增强Safari浏览器功能
 Name: SafariUnleashed PRO
 Author: Rishanan
 Depiction: https://jianfengzhi.github.io/depiction/?p=safariupro
 Icon: file:///Library/PreferenceBundles/safariupro.bundle/icon@2x.png
+
+Package: com.jianfengzhi.sential
+Version: 1.2
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: deb/sential_1.2.deb
+Size: 1904914
+MD5sum: b5637ebd3524c6a5714c9fb6d81bfb35
+Description: Sential主题
+Name: Sential
+Author: Aesign
+Depiction: https://jianfengzhi.github.io/depiction/?p=sential
 
 Package: com.jianfengzhi.shadowsocks
 Version: 0.3.2-3
@@ -1035,8 +1105,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/smartlpm_1.3.0-1.deb
-Size: 146482
-MD5sum: c629460632c664324e43706873f39942
+Size: 145896
+MD5sum: c19c3e5415eb5960cee0ffe718672390
 Description: 启用智能低电量模式
 Name: SmartLPM
 Author: smokin1337
@@ -1098,8 +1168,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 10.0),mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm
 Filename: deb/t9assistant_1.4.0.deb
-Size: 477038
-MD5sum: 79ee76cb039ba4ec33bc955b7f4adc34
+Size: 477134
+MD5sum: 8ef19ce6eef390eee85057849c6d4d95
 Description: T9拨号助手整合版(整合Assistant和KuaiDial)
 Name: T9 Assistant
 Author: JFZ <jianfengzhi@qq.com>
@@ -1119,20 +1189,6 @@ Name: Tage
 Author: Ma Jun
 Depiction: https://jianfengzhi.github.io/depiction/?p=tage
 Icon: file:///Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
-
-Package: com.jianfengzhi.test
-Version: 2.0
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm
-Filename: deb/test_2.0.deb
-Size: 13024
-MD5sum: 9d06837e3a48975f9ad58bea08bd8bad
-Description: This is test package.
-Name: Test
-Author: JFZ <chongjialee@gmail.com>
-Depiction: https://jfzcydia.github.io/depiction/?p=test
 
 Package: com.jianfengzhi.tinybar
 Version: 0.2.0
@@ -1196,21 +1252,6 @@ Name: VirtualMemory
 Author: hcw1588
 Depiction: https://jianfengzhi.github.io/depiction/?p=virtualmemory
 Icon: file:///Library/PreferenceLoader/Preferences/VirtualMemory/icon.png
-
-Package: com.jianfengzhi.voicechanger
-Version: 1.1-28
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader, gsc.telephony, com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: deb/voicechanger_1.1-28.deb
-Size: 64936
-MD5sum: 67e06840aae08637c58ce6bdd2076108
-Description: iOS变声器
-Name: VoiceChanger
-Author: Elias Limneos
-Depiction: https://jianfengzhi.github.io/depiction/?p=voicechanger
-Icon: file:///Library/PreferenceBundles/voicechanger.bundle/icon@2x.png
 
 Package: com.jianfengzhi.wecallkit
 Version: 1.0
