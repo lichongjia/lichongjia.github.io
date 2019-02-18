@@ -806,9 +806,9 @@ Section: Themes
 Maintainer: JFZ <jianfengzhi@qq.com>
 Architecture: iphoneos-arm
 Filename: deb/lotusdark_1.0.7.deb
-Size: 9879744
-MD5sum: e2c0edaa1a45ebbdb53cdd4a0c9e70b1
-Description: LotusDarkºÚÉ«Ö÷Ìâ
+Size: 9879836
+MD5sum: 3bd9171dba7725b8f0ee3b063a4bee78
+Description: LotusDarké»‘è‰²ä¸»é¢˜
 Name: Lotus Dark
 Author: Navid Mamoon (navidmx)
 Depiction: https://jianfengzhi.github.io/depiction/?p=lotusdark
