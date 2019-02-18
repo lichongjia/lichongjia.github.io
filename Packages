@@ -456,6 +456,20 @@ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dockData
 Depiction: https://jianfengzhi.github.io/depiction/?p=dock
 Icon: file:///Library/PreferenceBundles/DockSettings.bundle/Icon-small@2x.png
 
+Package: com.jianfengzhi.elite9
+Version: 1.0
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: deb/elite_1.0.deb
+Size: 2855934
+MD5sum: 39764eba3a4f1939b240868cbc77c8ec
+Description: Elite9主题，自用修改版
+Name: Elite9
+Author: JFZ
+Depiction: https://jianfengzhi.github.io/depiction/?p=elite9
+
 Package: com.jianfengzhi.exkeyboard
 Version: 1.2
 Section: Tweaks
@@ -547,8 +561,8 @@ Conflicts: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cct
 Replaces: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
 Architecture: iphoneos-arm
 Filename: deb/flipcontrolcenter_1.0.4.deb
-Size: 101696
-MD5sum: 7372bfffc4e8d129fae266f9411a5da3
+Size: 91768
+MD5sum: c7506418080796ce56aa703c9f3ffbcb
 Description: 自定义控制中心开关
 Name: FlipControlCenter
 Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
@@ -1074,8 +1088,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 7.0)
 Architecture: iphoneos-arm
 Filename: deb/sential_1.2.deb
-Size: 1904914
-MD5sum: b5637ebd3524c6a5714c9fb6d81bfb35
+Size: 1905142
+MD5sum: 740ed99bef38c75e3879b1b406d3ccf6
 Description: Sential主题
 Name: Sential
 Author: Aesign

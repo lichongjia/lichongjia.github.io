@@ -7,7 +7,7 @@ Architectures: iphoneos-arm
 Components: main
 Description: Hi,my name is JianFengZhi.This is my personal repo!
 MD5Sum:
- 5d7cc8b7a68803610cceee3ac5137612 49258 Packages
- 785ac2e781ea5343f49a44dd2efc9020 11986 Packages.gz
- dbb85373d1f552b3fdfaff3f6e66d1b5 10796 Packages.bz2
+ 803ac6038ee46d78366299aece52f7e7 49623 Packages
+ 8c4d84f0be6033c41c475abd533d7514 12080 Packages.gz
+ 8c477995e46dffece97e34b2873eac5c 10869 Packages.bz2
  
