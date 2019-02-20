@@ -463,10 +463,10 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 7.0)
 Architecture: iphoneos-arm
 Filename: deb/elite_1.0.deb
-Size: 2855934
-MD5sum: 39764eba3a4f1939b240868cbc77c8ec
-Description: Elite9主题，自用修改版
-Name: Elite9
+Size: 2834398
+MD5sum: 7f88a7cb4ef55df371da21f7ad5eebde
+Description: Elite9主题,自用修改版
+Name: Elite 9
 Author: JFZ
 Depiction: https://jianfengzhi.github.io/depiction/?p=elite9
 
@@ -770,48 +770,19 @@ Author: PanguTeam
 Depiction: https://jianfengzhi.github.io/depiction/?p=localiapstore
 Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
 
-Package: com.jianfengzhi.localiapstore6
-Version: 1.4-1
-Priority: optional
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 5.1.1), mobilesubstrate, preferenceloader
-Conflicts: com.jianfengzhi.localiapstore
-Architecture: iphoneos-arm
-Filename: deb/localiapstore6_1.4-2.deb
-Size: 42252
-MD5sum: 65cee88bccc7be5d181c399019523079
-Description: 内购神器，支持 iOS 5.1.1- iOS7.1。
-Name: LocalIAPStore for iOS6
-Author: anondev
-Depiction: https://jianfengzhi.github.io/depiction/?p=localiapstore
-Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
-
 Package: com.jianfengzhi.lotus
-Version: 1.2
+Version: 1.0
 Section: Themes
 Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0)
 Architecture: iphoneos-arm
-Filename: deb/lotus_1.2.deb
-Size: 9081792
-MD5sum: ac91db6145c313886adaac3b4562b1c6
-Description: 漂亮的Lotus主题
+Filename: deb/lotus_1.0.deb
+Size: 9455864
+MD5sum: 9643e09bd857d07866f5bf42acf9c898
+Description: Lotus主题,自用修改版
 Name: Lotus
-Author: JFZ <jianfengzhi@qq.com>
+Author: JFZ
 Depiction: https://jianfengzhi.github.io/depiction/?p=lotus
-
-Package: com.jianfengzhi.lotusdark
-Version: 1.0.7
-Section: Themes
-Maintainer: JFZ <jianfengzhi@qq.com>
-Architecture: iphoneos-arm
-Filename: deb/lotusdark_1.0.7.deb
-Size: 9879836
-MD5sum: 3bd9171dba7725b8f0ee3b063a4bee78
-Description: LotusDark黑色主题
-Name: Lotus Dark
-Author: Navid Mamoon (navidmx)
-Depiction: https://jianfengzhi.github.io/depiction/?p=lotusdark
 
 Package: com.jianfengzhi.maize10
 Version: 1.3.1-01
@@ -1291,6 +1262,20 @@ Author: Ma Jun <majun3@gmail.com>
 Homepage: http://www.clezz.com/touchr/cydia_page.html?v=1.0.4~beta1
 Depiction: https://jianfengzhi.github.io/depiction/?p=touchr
 Icon: file:///Library/PreferenceBundles/TouchrSettings.bundle/Icon-small@2x.png
+
+Package: com.jianfengzhi.veexillum
+Version: 1.0
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: deb/veexillum_1.0.deb
+Size: 19212976
+MD5sum: f9e4ac27b7eeb27d9900d6047c3ebe44
+Description: Veexillum主题,自用修改版
+Name: Veexillum
+Author: JFZ
+Depiction: https://jianfengzhi.github.io/depiction/?p=veexillum
 
 Package: com.jianfengzhi.videohelper
 Version: 1.0.0beta
