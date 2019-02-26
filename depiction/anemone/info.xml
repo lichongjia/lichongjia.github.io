@@ -9,7 +9,8 @@
 	</compatibility>
 	<shortDescription>Anemone主题工具</shortDescription>
 	<descriptionlist>
-		<description>已加入新版字体无法加载的补丁文件</description>
+		<description>注意:官方2.1.8版以上不再支持更换字体</description>
+		<description>需要更换字体请下载此旧版(2.1.7-1)</description>
 		<description>加入英文和中文字体模版,参看使用教程</description>
 	</descriptionlist>
 	<links>

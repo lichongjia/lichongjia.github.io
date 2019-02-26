@@ -75,7 +75,7 @@ Author: iBreak <ibreak@qq.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=allowkeyboard
 
 Package: com.jianfengzhi.anemone
-Version: 2.1.8-2
+Version: 2.1.7-7
 Priority: optional
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
@@ -84,11 +84,11 @@ Conflicts: org.coolstar.themelib, anemoneteam.anemone, winterboard, com.codethem
 Provides: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, org.coolstar.customclock, com.codethemed.iconbundles, com.idd.iconomatic
 Replaces: org.coolstar.themelib, anemoneteam.anemone, org.coolstar.classicdock, winterboard, org.coolstar.classicbadges, com.codethemed.iconbundles, com.idd.iconomatic
 Architecture: iphoneos-arm
-Filename: deb/anemone_2.1.8-2.deb
-Size: 1866634
+Filename: deb/anemone_2.1.7-7.deb
+Size: 1885740
 Installed-Size: 8112
-MD5sum: d1c22baa2aa255f769c5b3001a2c7abf
-Description: Anemone主题工具,修复字体加载和加入字体模板
+MD5sum: a04891644f8e9817a7501ec6d2b37c2d
+Description: Anemone主题工具旧版可更换字体(已加入字体模板)
 Name: Anemone
 Author: AnemoneTeam <anemonetheming@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
@@ -791,8 +791,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
 Architecture: iphoneos-arm
 Filename: deb/lpm_1.3.deb
-Size: 20458
-MD5sum: df8c116c84ddcf31af943186c77585cb
+Size: 20028
+MD5sum: c325bab263fad0e8efbc30d5e5f60819
 Description: 自定义低电量模式的电池百分比
 Name: Low Power Modder
 Author: iFlames <iflames.x@gmail.com>
