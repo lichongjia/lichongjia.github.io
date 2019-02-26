@@ -1016,6 +1016,34 @@ Homepage: http://www.clezz.com/quickdo/cydia_page.html?v=3.9-1
 Depiction: https://jianfengzhi.github.io/depiction/?p=quickdoforme
 Icon: file:///Library/PreferenceBundles/QuickDoSettings.bundle/Icon-small.png
 
+Package: com.jianfengzhi.reallpm
+Version: 1.0-30+debug
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/reallpm_1.0-30+debug.deb
+Size: 640844
+MD5sum: ba231b4e03f4ba4b0d1a5616db84b6b4
+Description: 真实低电量模式,已汉化
+Name: RealLPM
+Author: DylanDuff
+Depiction: https://jianfengzhi.github.io/depiction/?p=reallpm
+
+Package: com.jianfengzhi.removelabels
+Version: 0.1-13
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: mobilesubstrate, firmware(>=10.0)
+Architecture: iphoneos-arm
+Filename: deb/removelabels_0.1-13.deb
+Size: 23024
+MD5sum: d293d387b8dffddcecd41ebf20aa2829
+Description: 隐藏APP名字(包括Dock,主屏和文件夹),for iOS 10
+Name: RemoveLabels
+Author: Lizynz
+Depiction: https://jianfengzhi.github.io/depiction/?p=removelabels
+
 Package: com.jianfengzhi.reprovision
 Version: 0.3.2
 Priority: optional
