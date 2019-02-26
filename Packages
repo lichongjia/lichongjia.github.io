@@ -784,6 +784,21 @@ Name: Lotus
 Author: JFZ
 Depiction: https://jianfengzhi.github.io/depiction/?p=lotus
 
+Package: com.jianfengzhi.lpm
+Version: 1.3
+Section: Tweaks
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm
+Filename: deb/lpm_1.3.deb
+Size: 20458
+MD5sum: df8c116c84ddcf31af943186c77585cb
+Description: 自定义低电量模式的电池百分比
+Name: Low Power Modder
+Author: iFlames <iflames.x@gmail.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=lpm
+Icon: file:///Users/Optimo/iPhone/lowpowermodder_1.0/Library/PreferenceBundles/lpmprefs.bundle/icon@2x.png
+
 Package: com.jianfengzhi.maize10
 Version: 1.3.1-01
 Section: Tweaks
