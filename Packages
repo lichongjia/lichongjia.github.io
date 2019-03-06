@@ -978,17 +978,17 @@ Author: iBreak <ibreak2019@qq.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=qqcallkit
 
 Package: com.jianfengzhi.quickdo
-Version: 3.9.4
+Version: 3.9.4~beta9k
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader (>= 2.0), com.a3tweaks.flipswitch
 Conflicts: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.qdf, com.clezz.qdb, com.jianfengzhi.quickdo-beta
 Replaces: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.qdf, com.clezz.qdb, com.jianfengzhi.quickdo-beta
 Architecture: iphoneos-arm
-Filename: deb/quickdo_3.9.4.deb
-Size: 1729614
-MD5sum: a6cac3227a2018f106d1088494a4dbff
-Description: 手势, 快捷方式, 开关, 程序切换和多任务管理器
+Filename: deb/quickdo_3.9.4-beta9.deb
+Size: 1132414
+MD5sum: c19fa6ebcdbda7da0f17741c48079606
+Description: 程序切换和多任务管理器手势,快捷方式, 开关
 Name: QuickDo
 Author: Ma Jun <majun3@gmail.com>
 Homepage: http://www.clezz.com/quickdo/cydia_page.html?v=3.9.4
