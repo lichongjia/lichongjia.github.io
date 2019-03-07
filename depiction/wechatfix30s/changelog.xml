@@ -1,0 +1,17 @@
+<changelog>
+	<changes>
+		<version>1.2.0 (Wechat Helper)</version>
+		<change>原wechatfix30s改版为Wechat Helper</change>
+		<change>1. 支持关闭视频动态功能</change>
+		<change>2. 支持关闭首页或通讯录搜索栏</change>
+		<change>3. 支持关闭发现页面多项功能入口</change>
+		<change>4. 支持隐藏显示其它设备已登录提示条</change>
+		<change>5. 优化插件核心代码与提升稳定性</change>
+		<change>6. 修复部分用户反馈的问题</change>
+	</changes>
+	<changes>
+		<version>1.0.5</version>
+		<change>1. 支持朋友圈播放视频快进/后退</change>
+		<change>2. 优化小部分代码 (减少Tweak冲突)</change>
+	</changes>
+</changelog>

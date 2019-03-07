@@ -1,0 +1,31 @@
+<package>
+	<id>com.jianfengzhi.smartlowpower</id>
+	<name>SmartLowPower</name>
+	<version>1.1</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>智能低电量模式</shortDescription>
+	<descriptionlist>
+		<description>智能低电量模式，已完整汉化</description>
+		<description>- 当设备锁定时启用低电量模式或飞行模式</description>
+		<description>- 充电时候启用低电量模式或飞行模式</description>
+		<description>- 设置你自定义电量百分比时候启用低电量模式或飞行模式</description>
+	</descriptionlist>
+	<changelog>
+		<change>添加FlipSwitch开关来启用或禁用插件，以允许手动激活低电量模式</change>
+		<change>添加通过FlipSwitch禁用插件时自动启用低功耗模式的选项</change>
+	</changelog>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>
+	</screenshots>
+</package>

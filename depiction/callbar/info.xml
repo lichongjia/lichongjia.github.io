@@ -9,7 +9,7 @@
 	</compatibility>
 	<shortDescription>来电状态栏呼叫</shortDescription>
 	<descriptionlist>
-		<description>状态栏呼叫,让突然来电不再打扰你</description>
+		<description>来电状态栏呼叫，让突然来电不再全屏打扰你，参见截图。</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -23,7 +23,7 @@
 	</screenshots>
 	<links>
 		<link>
-			<name>使用说明</name>
+			<name> 使用说明</name>
 			<url>https://mrmad.com.tw/cydia-callbar</url>
 			<iconclass>fa fa-book</iconclass>
 		</link>

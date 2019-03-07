@@ -1,20 +1,17 @@
 <package>
 	<id>com.jianfengzhi.appsyncunified</id>
 	<name>AppSync Unified</name>
-	<version>31.1</version>
+	<version>32.0</version>
 	<compatibility>
 		<firmware>
 			<miniOS>5.0</miniOS>
-			<maxiOS>11.4</maxiOS>
+			<maxiOS>12.1.2</maxiOS>
 		</firmware>
 	</compatibility>
-	<shortDescription>允许设备安装破解版App应用</shortDescription>
+	<shortDescription>允许设备安装未签名的应用</shortDescription>
 	<descriptionlist>
-		<description>绕过系统签名校验，允许设备安装破解版应用。</description>
+		<description>绕过系统签名校验，允许设备安装未签名的APP。</description>
 	</descriptionlist>
-	<changelog>
-		<change>Modified Depends line to properly allow installation on the iOS 11.4 betas, as the previous one apparently does not work for the betas.</change>
-	</changelog>
 	<links>
 		<link>
 			<name> 开发者主页</name>

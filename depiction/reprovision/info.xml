@@ -9,7 +9,7 @@
 	</compatibility>
 	<shortDescription>新版重签名插件</shortDescription>
 	<descriptionlist>
-		<description>严成红傻逼专用插件</description>
+		<description>此版为中文版，并非最新版，需要最新版请查看作者Github页</description>
 		<description>在您的设备上重新签名应用程序</description>
 		<description>- 自动重签本地应用程序。</description>
 		<description>- 保存AppleID登录详细信息(注意：敏感信息存储在密钥链中)。</description>

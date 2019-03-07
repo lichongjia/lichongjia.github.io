@@ -1,0 +1,21 @@
+<package>
+	<id>com.jianfengzhi.betterfive</id>
+	<name>betterFive</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>8.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>在DOCK栏和主屏幕每行放置5个APP</shortDescription>
+	<descriptionlist>
+		<description>在DOCK栏和主屏幕每行放置5个APP。</description>
+		<description>整合betterFiveIconDock和betterFiveColumnHomescreen两个插件的功能，效果参见截图。</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+	</screenshots>
+</package>

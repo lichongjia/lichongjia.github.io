@@ -1,0 +1,27 @@
+<package>
+	<id>com.jianfengzhi.cheader</id>
+	<name>Cheader</name>
+	<version>0.1.2-3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>10.0</miniOS>
+		</firmware>
+	</compatibility>
+	<descriptionlist>
+		<description>使Banner标题部分的颜色跟随APP图标颜色变化，使用效果见截图。</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>cheader1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>cheader2.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图3</description>
+			<image>cheader3.jpg</image>
+		</screenshot>
+	</screenshots>
+</package>

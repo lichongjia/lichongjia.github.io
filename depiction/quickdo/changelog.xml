@@ -1,0 +1,16 @@
+<changelog>
+	<changes>
+		<version>3.9.3 (2016-07-26)</version>
+		<change>适配iOS 9.3</change>
+		<change>添加动作 - 程序内返回</change>
+		<change>添加设置 - 超越系统震动设置</change>
+	</changes>
+		<changes>
+		<version>3.9.2-1 (2015-11-22)</version>
+		<change>合并"主屏幕图标"动作到"返回主屏幕"动作</change>
+	</changes>
+		<changes>
+		<version>3.9.2 (2015-10-18)</version>
+		<change>适配iOS 9</change>
+	</changes>
+</changelog>

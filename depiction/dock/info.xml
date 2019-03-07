@@ -1,0 +1,39 @@
+<package>
+	<id>com.jianfengzhi.dock</id>
+	<name>Dock</name>
+	<version>2.2.11</version>
+	<compatibility>
+		<firmware>
+			<miniOS>3.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Dock快捷程序插件</shortDescription>
+	<descriptionlist>
+		<description>Dock是一个类似于MacOS上Dock的插件，可以管理后台程序，程序快捷方式，以及程序间快速切换。</description>
+		<description>- 支持iPhone/iPad，iOS 3.x~10.x。</description>
+		<description>- 方便快捷的多任务管理，后台程序切换、关闭。</description>
+		<description>- 可自定义的程序快捷方式，可以设置多个自己喜欢的应用程序。</description>
+		<description>- 快速的开启程序及程序间切换，在锁屏页面也可以操作。</description>
+		<description>- 多种触发方式，双击状态条，按住状态条，双击Home键，按住Home键，左/右下角向上滑动，QuickDo手势。</description>
+		</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.png</image>
+		</screenshot>	
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>	
+	</screenshots>
+	<changelog>
+		<change>适配支持iOS 10</change>
+	</changelog>
+	<links>
+		<link>
+			<name> 开发者主页</name>
+			<url>https://www.clezz.com</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

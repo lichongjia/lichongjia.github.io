@@ -9,7 +9,8 @@
 	</compatibility>
 	<shortDescription>Datameter的精简版</shortDescription>
 	<descriptionlist>
-		<description>提取Datameter里面的悬浮网速功能</description>
+		<description>Datameter精简版,仅提取Datameter里面的悬浮网速功能</description>
+		<description>建议iOS11或以上安装，iOS10或以下直接安装全功能版即可</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>

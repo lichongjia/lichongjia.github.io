@@ -9,8 +9,9 @@
 	</compatibility>
 	<dependencies></dependencies>
 	<descriptionlist>
-		<description>开启或关闭APP对WiFi网络的访问</description>
+		<description>开启或关闭APP对WiFi网络的访问，本版仅支持iOS10</description>
 		<description>在 设置-WiFi(无线局域网)-选项 下面进行具体设置</description>
+		<description>iOS 11对应下载ConditionalWiFi3，iOS 12请下载ConditionalWiFi4</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
@@ -18,8 +19,4 @@
 				<image>shot1.jpg</image>
 		</screenshot>
 	</screenshots>
-	<changelog>
-		<change>发布支持iOS 10</change>
-	</changelog>
-	<links></links>
 </package>

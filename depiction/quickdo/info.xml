@@ -1,0 +1,46 @@
+<package>
+	<id>com.jianfengzhi.quickdo</id>
+	<name>Quickdo</name>
+	<version>3.9.4~beta9</version>
+	<compatibility>
+		<firmware>
+			<miniOS>5.0</miniOS>
+			<maxiOS>10.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Quickdo多任务手势插件</shortDescription>
+	<descriptionlist>
+		<description>Quickdo是一个超强的多任务手势插件</description>
+		<description>- 支持二指、三指全屏手势。</description>
+		<description>- 虚拟Home键，退出程序，锁定屏幕，随时调出iPod控制。</description>
+		<description>- 电源管理，注销，重启，关机。</description>
+		<description>- 来电静音，挂断来电。</description>
+		<description>- 多任务管理，后台任务的切换和关闭。</description>
+		<description>- 程序快捷方式，快速打开应用。</description>
+		<description>- 系统任务管理界面音量控制条。</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图2</description>
+			<image>shot2.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图3</description>
+			<image>shot3.jpg</image>
+		</screenshot>		
+	</screenshots>
+	<changelog>
+		<change>适配iOS 10</change>
+	</changelog>
+	<links>
+		<link>
+			<name> 开发者主页</name>
+			<url>https://www.clezz.com</url>
+			<iconclass>fa fa-home</iconclass>
+		</link>
+	</links>
+</package>

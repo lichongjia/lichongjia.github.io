@@ -13,9 +13,10 @@
 		<package>preferenceloader</package>
 		<package>libbulletin</package>
 	</dependencies>
-	<shortDescription>最好用的指纹密码加密解密App应用</shortDescription>
+	<shortDescription>最好用的指纹密加密解密APP插件</shortDescription>
 	<descriptionlist>
-		<description>使用Touch ID或密码保护您的应用程序！</description>
+		<description>最好用的指纹加解密APP插件！支持iOS 7~10</description>
+    <description>使用Touch ID或密码保护您的应用程序。</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>

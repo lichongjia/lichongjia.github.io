@@ -8,8 +8,9 @@
 			<maxiOS>11.0</maxiOS>
 		</firmware>
 	</compatibility>
-	<shortDescription>突破微信可拍摄与上传30秒视频</shortDescription>
+	<shortDescription>微信助手,突破微信可拍摄与上传30秒视频</shortDescription>
 	<descriptionlist>
+		<description>注意：微信助手WeChatHelper(原WeChatFix30s全新改版)，详情查看更新日志，需要新版可在本源下载</description>
 		<description>1. 支持小视频可拍摄30秒</description>
 		<description>2. 支持动态视频可拍摄30秒</description>
 		<description>3. 支持朋友圈可上传视频30秒 (无需压缩)</description>
@@ -28,7 +29,7 @@
 	</screenshots>
 	<changelog>
 		<change>1. 支持朋友圈播放视频快进/后退</change>
-		<change>2. 优化小部分代码 (减少Tweak冲突)</change>
+		<change>2. 优化小部分代码(减少Tweak冲突)</change>
 	</changelog>
 	<links>
 		<link>

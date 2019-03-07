@@ -1,0 +1,20 @@
+<package>
+	<id>com.jianfengzhi.datameter</id>
+	<name>DataMeter</name>
+	<version>1.4.3</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Datameter流量计</shortDescription>
+	<descriptionlist>
+		<description>Datameter流量计，设置悬浮窗显示即时网速。</description>
+	</descriptionlist>
+		<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.png</image>
+		</screenshot>				
+	</screenshots>
+</package>

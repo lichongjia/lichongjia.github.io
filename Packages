@@ -986,9 +986,9 @@ Conflicts: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdo
 Replaces: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.qdf, com.clezz.qdb, com.jianfengzhi.quickdo-beta
 Architecture: iphoneos-arm
 Filename: deb/quickdo_3.9.4-beta9.deb
-Size: 1132414
-MD5sum: c19fa6ebcdbda7da0f17741c48079606
-Description: 程序切换和多任务管理器手势,快捷方式, 开关
+Size: 1132416
+MD5sum: 872d374dcc67996746aaa1b67ea3dbeb
+Description: 程序切换手势和多任务管理器,快捷方式,开关
 Name: QuickDo
 Author: Ma Jun <majun3@gmail.com>
 Homepage: http://www.clezz.com/quickdo/cydia_page.html?v=3.9.4
@@ -1297,8 +1297,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
 Architecture: iphoneos-arm
 Filename: deb/touchr_1.0.4-beta1.deb
-Size: 115986
-MD5sum: 8cc70b9dc4b03012283b00889392024b
+Size: 115922
+MD5sum: e6a826711f1e8ee8a11e9f81b9533764
 Description: TouchID 手势
 Name: Touchr
 Author: Ma Jun <majun3@gmail.com>

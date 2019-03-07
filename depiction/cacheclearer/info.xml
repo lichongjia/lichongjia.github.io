@@ -16,11 +16,7 @@
 		<screenshot>
 			<description>截图1</description>
 			<image>shot1.jpg</image>
-		</screenshot>		
-		<screenshot>
-			<description>截图2</description>
-			<image>shot2.jpg</image>
-		</screenshot>		
+		</screenshot>
 	</screenshots>
 	<changelog>
 		<change>- 根据源码汉化编译,适配iOS 10</change>

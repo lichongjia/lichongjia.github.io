@@ -10,7 +10,7 @@
 	</compatibility>
 	<shortDescription>新的iOS控制中心开关样式。</shortDescription>
 	<descriptionlist>
-		<description>竖直方式显示iOS控制中心的开关,for iOS 10。</description>
+		<description>竖直方式显示iOS控制中心的开关,支持iOS10。</description>
 	</descriptionlist>
 	<changelog></changelog>
 		<screenshots>

@@ -7,25 +7,31 @@
 			<miniOS>7.0</miniOS>
 		</firmware>
 	</compatibility>
-	<dependencies>
-		<package>mobilesubstrate</package>
-		<package>preferenceloader</package>
-	</dependencies>
-	<shortDescription>Tage是一个功能强大的多任务手势插件</shortDescription>
+	<shortDescription>Tage多任务手势插件</shortDescription>
 	<descriptionlist>
+		<description>Tage是一个功能强大的多任务手势插件</description>
 		<description>- 返回主屏幕或激活多任务</description>
+    <description>从屏幕底部边缘向上滑动来返回主屏幕或激活多任务管理(向上长距离滑动关闭程序并退出后台)。</description>
 		<description>- 切换程序</description>
+		<description>从屏幕左边或右边滑入屏幕来切换程序。</description>
 		<description>- 快速切换</description>
+		<description>快速切换程序，从屏幕左下角或右下角划入屏幕来快速切换程序。</description>
 		<description>- 锁定机器</description>
+		<description>可设置多个手势来锁定机器。</description>
 		<description>- 任务管理界面卡片动作</description>
+		<description>首页卡片下滑来显示电源选项(关机，重启，安全模式，注销，锁屏，关闭所有程序，关闭后台程序)。程序卡片下滑来显示关闭后台选项(关闭所有程序，关闭后台程序，关闭其他程序)。</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
 			<description>截图1</description>
-			<image>shot1.jpg</image>
+			<image>shot0.png</image>
 		</screenshot>		
 		<screenshot>
 			<description>截图2</description>
+			<image>shot1.jpg</image>
+		</screenshot>		
+		<screenshot>
+			<description>截图3</description>
 			<image>shot2.jpg</image>
 		</screenshot>		
 	</screenshots>
