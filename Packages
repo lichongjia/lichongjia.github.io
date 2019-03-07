@@ -8,13 +8,12 @@ Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.ni
 Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
 Architecture: iphoneos-arm
 Filename: deb/flipswitch_1.0.16-beta2.deb
-Size: 273126
-MD5sum: d9c0abe6f7087a83410ba49ebbf6fc22
+Size: 273346
+MD5sum: 94c34b007a34094a2307c831a3c1b31b
 Description: iOS控制中心开关集合(依赖)
 Name: Flipswitch
 Author: rpetrich <rpetrich+flipswitch@gmail.com>
 Homepage: https://rpetri.ch/cydia/flipswitch/beta/
-Depiction: https://jianfengzhi.github.io/depiction/?p=flipswitch
 Icon: file:///Applications/Preferences.app/icon-table.png
 
 Package: com.iosdesigner.iosmojave
@@ -30,36 +29,6 @@ Name: iOS Mojave
 Author: iOSDesigner <andereder@yahoo.de>
 Depiction: https://jianfengzhi.github.io/depiction/?p=iosmojave
 
-Package: com.jfzcydia.perl
-Version: 5.22.0
-Section: Development
-Maintainer: JFZ <jianfengzhi@qq.com>
-Provides: perl
-Replaces: perl
-Architecture: iphoneos-arm
-Filename: deb/perl_5.22.0.deb
-Size: 11031134
-Installed-Size: 10760
-MD5sum: ddfb6bfa0b0bf9d976532fade96fa707
-Description: iOS上安装Perl环境
-Name: Perl
-Depiction: https://jfzcydia.github.io/depiction/perl/index.html
-
-Package: com.jfzcydia.redeb
-Version: 1.0.3
-Priority: extra
-Section: Utilities
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
-Architecture: iphoneos-arm
-Filename: deb/redeb_1.0.3.deb
-Size: 3362
-MD5sum: 6aceb135da7e455758059132625ec064
-Description: 打包本地安装的插件
-Name: redeb
-Author: T.Herak <50dc856b@opayq.com>
-Depiction: https://jfzcydia.github.io/depiction/redeb/index.html
-
 Package: com.jianfengzhi.allowkeyboard
 Version: 1.0
 Section: System
@@ -67,12 +36,11 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/allowkeyboard_1.0.deb
-Size: 3234
-MD5sum: d4e4984e61339d9597fa1e72138f2aee
-Description: 允许密码框使用第三方输入法,iOS 8/9/10/11
+Size: 3214
+MD5sum: c16977682487bd5bcd112d0781c65164
+Description: 允许密码框使用第三方输入法,支持iOS 8~11
 Name: Allowkeyboard
 Author: iBreak <ibreak@qq.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=allowkeyboard
 
 Package: com.jianfengzhi.anemone
 Version: 2.1.7-7
@@ -96,36 +64,22 @@ Depiction: https://jianfengzhi.github.io/depiction/?p=anemone
 Icon: file:///Applications/Anemone.app/icon.png
 
 Package: com.jianfengzhi.appsyncunified
-Version: 31.1
+Version: 32.0
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 11.4.1)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 12.1.2)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178
 Provides: appsync
 Replaces: us.hackulo.appsync50
 Architecture: iphoneos-arm
-Filename: deb/appsyncunified_31.1.deb
-Size: 30330
-MD5sum: adc07d1030f282df17dc52883435478e
-Description: 绕过APP签名校验
+Filename: deb/appsyncunified_32.0.deb
+Size: 30386
+MD5sum: f37ba5fa8355e9a318bf10dd35c2aa45
+Description: 允许安装未签名或伪造签名的iOS应用程序
 Name: AppSync Unified
 Author: Linus Yang, Karen/あけみ <karen@angelxwind.net>
 Homepage: https://cydia.angelxwind.net/
 Depiction: https://jianfengzhi.github.io/depiction/?p=appsyncunified
-
-Package: com.jianfengzhi.asupdatehider
-Version: 1.4.1
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), applist
-Architecture: iphoneos-arm
-Filename: deb/asupdatehider_1.4.1.deb
-Size: 144050
-MD5sum: 074163b51283384c68753720f0ed8995
-Description: 隐藏Appstore的升级提示
-Name: ASUpdateHider
-Author: Dulin
-Depiction: https://jianfengzhi.github.io/depiction/?p=asupdatehider
 
 Package: com.jianfengzhi.atlas
 Version: z1.0-1+debug
@@ -141,22 +95,6 @@ Name: Atlas
 Author: Antique <boernai290@gmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=atlas
 
-Package: com.jianfengzhi.autoanswer8
-Version: 0.1-26
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), firmware (>= 8.0), com.rpetrich.rocketbootstrap
-Conflicts: net.limneos.autoanswer, com.repo.xarold.com.autoanswer
-Architecture: iphoneos-arm
-Filename: deb/autoanswer8_0.1-26.deb
-Size: 55156
-MD5sum: a137386f2327343aecb63c1e5cd4b414
-Description: iOS自动应答
-Name: AutoAnswer8 (iOS 10/9/8)
-Author: Elias Limneos
-Depiction: https://jianfengzhi.github.io/depiction/?p=autoanswer8
-Icon: file:///Library/PreferenceBundles/AutoAnswer.bundle/AutoAnswer@2x.png
-
 Package: com.jianfengzhi.auxolite
 Version: 1.4-2
 Section: Tweaks
@@ -164,27 +102,12 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
 Architecture: iphoneos-arm
 Filename: deb/auxolite_1.4-2.deb
-Size: 127658
-MD5sum: 9d6fd4a79e5449e6ea0d9444b41ae2db
+Size: 127672
+MD5sum: c50bb2131b78b3b73f45ce300f239c95
 Description: 最酷最好用iOS6多任务增强插件
 Name: Auxo Lite
 Author: A3tweaks <A3tweaks@gmail.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=auxolite
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
-
-Package: com.jianfengzhi.berry
-Version: 1.4.2
-Section: Themes
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 9.0)
-Architecture: iphoneos-arm
-Filename: deb/berry_1.4.2.deb
-Size: 5671120
-MD5sum: 812ca5eca54660aee5950df8ea02f349
-Description: Berry主题
-Name: Berry
-Author: Paz Kachlon
-Depiction: https://jianfengzhi.github.io/depiction/?p=berry
 
 Package: com.jianfengzhi.betterfive
 Version: 1.0
@@ -233,20 +156,20 @@ Name: CacheClearer
 Author: Ryan Petrich <rpetrich+cacheclearer@gmail.com>
 Depiction: https://jianfengzhi.github.io/depiction/?p=cacheclearer
 
-Package: com.jianfengzhi.callassist
+Package: com.jianfengzhi.callassistant
 Version: 1.3-4
 Priority: optional
 Section: System
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
-Filename: deb/callassist_1.3-4.deb
-Size: 147432
-MD5sum: 1f8b129e57a45c3f75f7b680bdbad8a7
+Filename: deb/callassistant_1.3-4.deb
+Size: 148206
+MD5sum: c18cff6efae6524ca724c9410df967b4
 Description: 电话助手
-Name: CallAssist
+Name: CallAssistant
 Author: xybp888 <8657156@qq.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=callassist
+Depiction: https://jianfengzhi.github.io/depiction/?p=callassistant
 Icon: file:///Library/PreferenceBundles/zhendong.bundle/zhendongIcon@2x.png
 
 Package: com.jianfengzhi.callbar7
@@ -289,12 +212,11 @@ Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 
 Conflicts: tonyli.lunarcalendar.widget
 Architecture: iphoneos-arm
 Filename: deb/chinesecalendarpro_1.6.1-2.deb
-Size: 139266
-MD5sum: 420144563fbf8c07d5b28a4d68058ce6
-Description: 通知中心显示中国农历
+Size: 139186
+MD5sum: e53e4a9b93bb8a6f435f31a27ac21223
+Description: 通知中心显示中国农历(iOS6自用版)
 Name: Chinese Calendar Pro for Notification Center
 Author: Tony Li
-Depiction: https://jianfengzhi.github.io/depiction/?p=chinesecalendarpro
 Icon: file:///Library/WeeLoader/Plugins/ChineseCalendarPro.bundle/Icon-Small@2x.png
 
 Package: com.jianfengzhi.cocoatop64
@@ -401,28 +323,12 @@ Depends: firmware(>= 3.0), mobilesubstrate, preferenceloader
 Conflicts: com.blackfacility.dbcounter, datecounter.178, com.xsellize.dbcounter, datecounter.appvv, app.weiphone.blackfacility.dbcounter, dbcounter.appvv
 Architecture: iphoneos-arm
 Filename: deb/datastatusbar_2.1-12.deb
-Size: 15862
-MD5sum: 81cb79797d032c14369377d47669b352
-Description: 状态栏网速计,适配iOS3.x-7.x，iPhone/iTouch/iPad适配。安装后可选择位置:在状态栏时钟区域显示当前网速(有网络流量活动时候)，按住状态栏可以即时切换当前网速为时钟.或者可以选择在右上角显示网速悬浮窗(无网络流量活动的时候会自动消失).在设置-DataStatusBar可以开启/关闭。Compatible with firmware 3.x-6.x Show your current network speed in statusbar or suspension window.Configure in Setting.app-DataStatusBar. ;) <br><br>
+Size: 15514
+MD5sum: c1847af6d0b23a48acafb7d891642613
+Description: 状态栏网速计(iPad自用版for iOS6)
 Name: DataStatusBar
 Author: zsm1703 <g1ghell@163.com.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=datastatusbar
 Icon: file:///Library/PreferenceLoader/Preferences/DataStatusBar@2x.png
-
-Package: com.jianfengzhi.datausagemonitor
-Version: 1.1-11
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate, preferenceloader, libstatusbar, firmware (>= 4.2), firmware (<< 7.0) | com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Filename: deb/datausagemonitor1.1-11.deb
-Size: 60570
-MD5sum: 4d1a7bf31d0261486e804d7fe6e545e7
-Description: 流量实时监控插件,首创状态栏流量实时显示功能,还支持流量上限报警功能.
-Name: Data Usage Monitor
-Author: Elias Limneos <iphone@limneos.net>
-Depiction: https://jianfengzhi.github.io/depiction/?p=datausagemonitor
-Icon: file:///Library/PreferenceBundles/DataUsagePrefs.bundle/DataUsage@2x.png
 
 Package: com.jianfengzhi.disableuicache
 Version: 1.0
@@ -431,12 +337,11 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/disableuicache_1.0.deb
-Size: 4164
-MD5sum: dbdfa767292d0c6624203837c95981f8
+Size: 4144
+MD5sum: a8b1b3721e06c740d0d6b88da5f6fca0
 Description: 禁用Cydia安装或卸载插件后Cydia自动重建源列表,无设置界面
-Name: DisableUICache
+Name: Disable UICache
 Author: Null
-Depiction: https://jianfengzhi.github.io/depiction/?p=disableuicache
 
 Package: com.jianfengzhi.dock
 Version: 2.2.11
@@ -477,12 +382,11 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
 Architecture: iphoneos-arm
 Filename: deb/exkeyboard_1.2.deb
-Size: 12754
-MD5sum: 6293345f949869ec415328ae3de4806a
+Size: 12730
+MD5sum: bb43e9ae194fc2b923293a946c1c13d5
 Description: 使用第三方键盘输入密码
 Name: exKeyboard
 Author: PoomSmart <poomst@hotmail.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=exkeyboard
 Icon: file:///Library/PreferenceLoader/Preferences/exKeyboard/Icon@2x.png
 
 Package: com.jianfengzhi.eyeplugs
@@ -493,8 +397,8 @@ Depends: firmware (>= 10.0), mobilesubstrate, applist, preferenceloader
 Architecture: iphoneos-arm
 Filename: deb/eyeplugs_1.3.0-6.deb
 Size: 30850
-MD5sum: aeafb47488963f87e0f25406a85662c4
-Description: 通知屏蔽游戏必备,在运行某些应用中自动屏蔽其它应用发出的通知
+MD5sum: 5c3fa8e8951a35ed9c9a79f8f5be4455
+Description: 屏蔽通知,在运行某些应用中自动屏蔽其它应用发出的通知,玩游戏必备!
 Name: Eyeplugs
 Author: SummerTriangle <summertriangle.dev@gmail.com>
 Icon: file:///Library/PreferenceBundles/VoltagePreferences.bundle/cPreferencesIcon@2x.png
@@ -508,13 +412,12 @@ Conflicts: com.tigisoftware.filza64bit, com.jianfengzhi.filzajailed
 Replaces: com.jianfengzhi.filzajailed
 Architecture: iphoneos-arm
 Filename: deb/filza_3.5.2-1.deb
-Size: 13324092
+Size: 13326038
 Installed-Size: 13015
-MD5sum: bdbf648cc83baf49294c5294a4c4a817
+MD5sum: a6bfc5324db9f6cd904805365aa6c453
 Description: 功能强大的文件管理软件
 Name: Filza File Manager
 Author: TIGI Software
-Depiction: https://jianfengzhi.github.io/depiction/?p=filza
 Icon: file:///Applications/Filza.app/AppIcon57x57.png
 
 Package: com.jianfengzhi.fingertouch
@@ -542,13 +445,12 @@ Conflicts: Flexpackage, Flexpackagebeta, FlexiOS7packagebeta, com.fuyuchi.flex, 
 Replaces: Flexpackage, Flexpackagebeta, FlexiOS7packagebeta, com.fuyuchi.flex, com.fuyuchi.flex2, Flex2package
 Architecture: iphoneos-arm
 Filename: deb/flex2_1.994.deb
-Size: 1613862
+Size: 1614470
 Installed-Size: 1567
-MD5sum: 3b30bb71f9b9cdb26100ca42b23ae850
-Description: Flex2作者源1.994版(优化图标)
+MD5sum: 2a0ad5fa722b735206d0fc5bd3d3fbb5
+Description: Flex2作者源1.994版(iOS6自用版,优化APP图标)
 Name: Flex 2
 Author: John Coates
-Depiction: https://jianfengzhi.github.io/depiction/?p=flex2
 Icon: file:///Applications/Flex.app/icon-58.png
 
 Package: com.jianfengzhi.flipcontrolcenter
@@ -561,28 +463,27 @@ Conflicts: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cct
 Replaces: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
 Architecture: iphoneos-arm
 Filename: deb/flipcontrolcenter_1.0.4.deb
-Size: 91768
-MD5sum: c7506418080796ce56aa703c9f3ffbcb
-Description: 自定义控制中心开关
+Size: 91866
+MD5sum: 4796ff548eac87a3ecc069c7d05e3127
+Description: 自定义控制中心开关,个人汉化版,修改可设置开关数2~9个
 Name: FlipControlCenter
 Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
 Homepage: http://rpetri.ch/cydia/flipcontrolcenter/
-Depiction: https://jianfengzhi.github.io/depiction/?p=flipcontrolcenter
 Icon: file:///Library/PreferenceLoader/Preferences/FlipControlCenter@2x.png
 
 Package: com.jianfengzhi.fullsafari
-Version: 1.2
+Version: 1.2-1
 Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
+Maintainer: LonestarX <me@lonestarx.net>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/fullsafari_1.2.deb
-Size: 8678
-MD5sum: 05d5c1103040823740884f4e585284c1
-Description: 在iPhone版的Safari浏览器上启用iPad样式的tab标签,无设置项
+Filename: deb/fullsafari_1.2-1.deb
+Size: 9000
+Installed-Size: 136
+MD5sum: 65a4fc9d997db0578ae878fbda9106f6
+Description: 在iPhone版Safari浏览器上启用iPad样式的tab标签
 Name: FullSafari
 Author: bensge <benno@bensge.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=fullsafari
 
 Package: com.jianfengzhi.goodges
 Version: 1.1.5
@@ -625,11 +526,10 @@ Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/i8corners_0.12.deb
 Size: 15264
-MD5sum: 2b4265c0d9bd81e24aa402771827b4c8
-Description: iPhone8风格的屏幕圆角
+MD5sum: 7196235411ab5383964201b5286cc89b
+Description: 设置iPhone手机的屏幕圆角插件
 Name: i8Corners
 Author: Antique <boernai290@gmail.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=i8corners
 Icon: file:///Library/PreferenceBundles/i8Corners.bundle/icon@2x.png
 
 Package: com.jianfengzhi.iapfree
@@ -642,12 +542,11 @@ Conflicts: com.crazydoraemon.IAPFree, com.crazydoraemon.commonlibs (>= 1.0.1), c
 Replaces: com.crazydoraemon.IAPFree, com.crazydoraemon.commonlibs (>= 1.0.1), com.crazydoraemon.iapfree.toggle, com.hackyouriphone.commonlibs
 Architecture: iphoneos-arm
 Filename: deb/iapfree_4.0.1-2.deb
-Size: 1540982
-MD5sum: 21387545dad1000d07d1399a0970cf84
-Description: 免费内购神器,安装后在软件界面先安装“核心插件”即可内购大多数游戏,"核心插件"搞不定的,可以通过安装专用插件搞定。
+Size: 1540920
+MD5sum: 8fdd1148c64bd8fc5a2bcaab68e66993
+Description: 内购神器iOS6自用版,先安装“核心插件”即可内购大多数游戏,"核心插件"搞不定的,可通过安装专用插件搞定。
 Name: iAPFree
 Author: CrazyDoraemon
-Depiction: https://jianfengzhi.github.io/depiction/?p=iapfree
 Icon: file:///Applications/IAPFree.app/Icon-Small@2x.png
 
 Package: com.jianfengzhi.icleanerpro
@@ -659,30 +558,13 @@ Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
 Architecture: iphoneos-arm
 Filename: deb/icleanerpro_7.7.0-beta1.deb
-Size: 6934172
-MD5sum: 347dfe12b7d9e8ff037611e9fac3410b
-Description: iOS系统清理和优化工具(自用beta版)
+Size: 6934730
+MD5sum: 3c211b4a0b075680c175223c1c712921
+Description: iOS系统清理和优化工具(自用beta完美破解版)，仅支持64位设备
 Name: iCleaner Pro
 Author: Ivano Bilenchi <support@ib-soft.net>
 Homepage: http://ib-soft.net/icleaner
-Depiction: https://jianfengzhi.github.io/depiction/?p=icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon-58.png
-
-Package: com.jianfengzhi.icontool
-Version: 1.9-7
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 5.0), preferenceloader (>= 2.2.2), com.ericasadun.utilities
-Conflicts: com.rpetrich.iconrenamer
-Architecture: iphoneos-arm
-Filename: deb/icontool_1.9-7.deb
-Size: 253480
-MD5sum: f03eca1ee8f9345f7bf0fc31219dfe2e
-Description: App图标菜单增强
-Name: Icon Tool
-Author: ioshack
-Depiction: https://jianfengzhi.github.io/depiction/?p=icontool
-Icon: file:///Library/PreferenceLoader/Preferences/IconTool/IconTool@2x.png
 
 Package: com.jianfengzhi.ifile
 Version: 2.2.0-1
@@ -691,33 +573,12 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Architecture: iphoneos-arm
 Filename: deb/ifile_2.2.0-1.deb
-Size: 7496280
-MD5sum: bdc5836f38295707b6f3d6c0631c67aa
-Description: iFile文件管理器(优化图标)
+Size: 7496984
+MD5sum: d460083f7ae2bbfd46929a5e4ab5466a
+Description: iFile文件管理器(iOS6自用修改版,优化图标)
 Name: iFile
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
-Depiction: https://jianfengzhi.github.io/depiction/?p=ifile
 Icon: file:///Applications/iFile.app/AppIcon29x29@2x.png
-
-Package: com.jianfengzhi.infinidock
-Version: 2.1.2-1
-Priority: standard
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Pre-Depends: firmware (>= 5.0)
-Depends: mobilesubstrate, preferenceloader (>= 1.1), com.chpwn.iconsupport
-Conflicts: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
-Provides: com.saurik.iphone.fid, com.macciti.6icondock
-Replaces: com.saurik.iphone.fid, com.weiphone.setwallpaper3, com.macciti.6icondock, com.imario.supremepreferencesthree, com.thecyberduck.springboardenhancer
-Architecture: iphoneos-arm
-Filename: deb/infinidock_2.1.2-1.deb
-Size: 42262
-MD5sum: c9b1f2796cc9e7baed25842f5897b08c
-Description: 突波Dock栏图标限制，每页可以放10个
-Name: Infinidock
-Author: chpwn <repo@hackyouriphone.org>
-Depiction: https://jianfengzhi.github.io/depiction/?p=infinidock
-Icon: file:///Library/PreferenceLoader/Preferences/Infinidock@2x.png
 
 Package: com.jianfengzhi.kuaidial
 Version: 1.0.1a2-13
@@ -745,30 +606,12 @@ Depends: mobilesubstrate, preferenceloader, applist, firmware (<< 11.0)
 Conflicts: com.jianfengzhi.libertylite
 Architecture: iphoneos-arm
 Filename: deb/liberty_0.2.10.deb
-Size: 63568
-MD5sum: 72548aecab5b9e137abf45f6cc0827e8
+Size: 63646
+MD5sum: 769e78ba998ca75ae9fedb7cc4223928
 Description: 屏蔽越狱检测
 Name: Liberty
 Author: Ryley Angus
-Depiction: https://jianfengzhi.github.io/depiction/?p=liberty
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref@3x.png
-
-Package: com.jianfengzhi.localiapstore
-Version: 1.4-4
-Priority: optional
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Conflicts: com.jianfengzhi.localiapstore6
-Architecture: iphoneos-arm
-Filename: deb/localiapstore_1.4-4.deb
-Size: 42364
-MD5sum: e3863f695dbd5514c08dc618efa57b6f
-Description: 内购破解,支持iOS7以上
-Name: LocalIAPStore
-Author: PanguTeam
-Depiction: https://jianfengzhi.github.io/depiction/?p=localiapstore
-Icon: file:///Library/PreferenceLoader/Preferences/LocalIAPStoreIcon@2x.png
 
 Package: com.jianfengzhi.lotus
 Version: 1.0
@@ -807,12 +650,11 @@ Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, co
 Conflicts: org.thebigboss.vigor, com.yourepo.kiiimo.flipcontrolcenter, com.rpetrich.flipcontrolcenter, com.ioscreatix.maizepreview, com.atwiiks.horseshoe, org.thebigboss.horseshoe
 Architecture: iphoneos-arm
 Filename: deb/maize10_1.3.1-01.deb
-Size: 556492
-MD5sum: bb9a7614e2e9a90c1e8d41a31ec1b76a
+Size: 556274
+MD5sum: 785d1086a2f1ff6f6a0d08104b696c50
 Description: 仿iOS11控制中心(Maize for 10.3.x)
 Name: Maize (iOS 10.3.x)
 Author: Creatix <ioscreatix@gmail.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=maize10
 Icon: file:///Library/PreferenceBundles/MaizeSettings.bundle/SettingsIcon@2x.png
 
 Package: com.jianfengzhi.minibar
@@ -822,8 +664,8 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/minibar_0.3.8.deb
-Size: 12672
-MD5sum: d39a1334b7d47ade9fca6293a0ae9583
+Size: 12666
+MD5sum: f43d78dec7095fcd77eb769bc56d276e
 Description: 迷你状态栏(iOS 10)
 Name: MiniBar
 Author: Antique
@@ -837,26 +679,12 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/minicc_1.78.deb
-Size: 11152
-MD5sum: 969c605f5a38ee15064924e4cc015f6c
+Size: 11140
+MD5sum: d9c593a02c93e8a3847d882c968d6a69
 Description: 迷你控制中心(iOS 10)
 Name: MiniCC
 Author: Antique
-Depiction: https://jianfengzhi.github.io/depiction/?p=minicc
 Icon: file:///Library/PreferenceBundles/MiniCC.bundle/icon@2x.png
-
-Package: com.jianfengzhi.minimal
-Version: 1.0.0
-Section: Themes
-Maintainer: JFZ <jianfengzhi@qq.com>
-Architecture: iphoneos-arm
-Filename: deb/minimal_1.0.0.deb
-Size: 4663776
-MD5sum: b4134935e7b1460814000beb5106be0c
-Description: Minimal主题
-Name: Minimal
-Author: iOSDesigner
-Depiction: https://jianfengzhi.github.io/depiction/?p=minimal
 
 Package: com.jianfengzhi.muffin
 Version: 1.3
@@ -884,36 +712,19 @@ Name: Muze 4
 Author: Kogulan (Purdix)
 Depiction: https://jianfengzhi.github.io/depiction/?p=muze4
 
-Package: com.jianfengzhi.nfcwriterx
-Version: 0.4-81
-Section: Utilities
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate, net.limneos.libbulletin
-Conflicts: net.limneos.nfcwriter
-Architecture: iphoneos-arm
-Filename: deb/nfcwriterx_0.4-81.deb
-Size: 492974
-MD5sum: 57158b095d4d1d90d163986febd9d910
-Description: 开启iPhone原生NFC
-Name: NFCWriter X
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=nfcwriterx
-Icon: file:///Applcations/NFCWriter.app/icon@2x.png
-
 Package: com.jianfengzhi.nosubstitute-electra
 Version: 1.0-1
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
-Conflicts: netskao.nosubstrate-cydiasubstrate
+Conflicts: com.jianfengzhi.nosubstrate-cydiasubstrate
 Architecture: iphoneos-arm
 Filename: deb/nosubstitute_1.0-1.deb
-Size: 8862
-MD5sum: def965f9fdd2bb5db5b2123794b10577
-Description: 屏蔽越狱,Electra越狱专用！
+Size: 8888
+MD5sum: 01d5901dbd50463d614e9cc39b35d3ad
+Description: 屏蔽越狱,Electra越狱专用！注意:屏蔽后任何插件对你勾选的应用都不会生效
 Name: NoSubstitute (Electra)
 Author: Dagzer
-Depiction: https://jianfengzhi.github.io/depiction/?p=nosubstitute-electra
 Icon: file:///Library/PreferenceBundles/NoSubstitute.bundle/Card@2x.png
 
 Package: com.jianfengzhi.nosubstrate-cydiasubstrate
@@ -921,16 +732,29 @@ Version: 1.3
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, preferenceloader, applist
-Conflicts: netskao.nosubstrate-electra
+Conflicts: com.jianfengzhi.nosubstrate-electra
 Architecture: iphoneos-arm
 Filename: deb/nosubstrate_1.3.deb
-Size: 15348
-MD5sum: e0b3a2536b035c8f012544f543e60625
-Description: 屏蔽越狱,Cydia Substrate专用！
+Size: 15422
+MD5sum: 145278b5aa6659d394918bf2d5a22b40
+Description: 屏蔽越狱,Cydia Substrate专用！注意:屏蔽后任何插件对你勾选的应用都不会生效
 Name: NoSubstrate (Cydia Substrate)
 Author: Janosch, Skylerk99
-Depiction: https://jianfengzhi.github.io/depiction/?p=nosubstrate-cydiasubstrate
 Icon: file:///Library/PreferenceBundles/NoSub.bundle/Card@2x.png
+
+Package: com.jianfengzhi.perl
+Version: 5.22.0
+Section: Development
+Maintainer: JFZ <jianfengzhi@qq.com>
+Provides: perl
+Replaces: perl
+Architecture: iphoneos-arm
+Filename: deb/perl_5.22.0.deb
+Size: 11024134
+Installed-Size: 10760
+MD5sum: d867788b57bafc6b66a75dc8b08dd580
+Description: iOS上安装Perl环境
+Name: Perl
 
 Package: com.jianfengzhi.photomanager
 Version: 1.3.3
@@ -954,13 +778,12 @@ Section: Utilities
 Maintainer: JFZ <jianfengzhi@qq.com>
 Architecture: iphoneos-arm
 Filename: deb/pphelper_0.995.deb
-Size: 3195606
-MD5sum: 7585d992f0ee1d8702168279f9a366e1
+Size: 3195772
+MD5sum: eeaa388a6825d76d454e22cbaf063a01
 Description: PP助手旧版,搭配iOS 6最佳。
 Name: PP助手(0.995)
 Author: Jun
 Homepage: http://apt.25pp.com/htm/25pp.htm
-Depiction: https://jianfengzhi.github.io/depiction/?p=pphelper
 Icon: file:///Applications/PPHelper.app/iPhoneAppIcon.png
 
 Package: com.jianfengzhi.qqcallkit
@@ -970,12 +793,11 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/qqcallkit_1.0.deb
-Size: 4142
-MD5sum: 574d864e79eeee93e396d20d2a72e112
-Description: 开启QQ的Callkit通话功能,V7.5.8 & Lower
-Name: QQCallkit
+Size: 4138
+MD5sum: b927c3689de28dcd1d82e3e206acff9c
+Description: 开启QQ的Callkit通话功能,支持QQ v7.5.8及以下
+Name: QQ Callkit
 Author: iBreak <ibreak2019@qq.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=qqcallkit
 
 Package: com.jianfengzhi.quickdo
 Version: 3.9.4~beta9k
@@ -1004,46 +826,13 @@ Conflicts: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdo
 Replaces: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.qdf, com.clezz.qdb, com.jianfengzhi.quickdo
 Architecture: iphoneos-arm
 Filename: deb/quickdo_3.9.5-beta1.deb
-Size: 1132080
-MD5sum: e65a6e7a67cd6c9833597a4e768c223e
-Description: 手势，快捷方式，开关，程序切换和多任务管理器
+Size: 1132104
+MD5sum: edb37acad665948c5df1e10cbec3c69d
+Description: QuickDo程序切换和多任务管理器手势,快捷方式,开关,最新beta破解版
 Name: QuickDo beta
 Author: Ma Jun <majun3@gmail.com>
 Homepage: http://www.clezz.com/quickdo/cydia_page.html?v=3.9.5~beta1
-Depiction: https://jianfengzhi.github.io/depiction/?p=quickdo
 Icon: file:///Library/PreferenceBundles/QuickDoSettings.bundle/Icon-small.png
-
-Package: com.jianfengzhi.quickdoforme
-Version: 3.9-1
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate, firmware (>=5.0),firmware (<=8.2), preferenceloader (>= 2.0), com.a3tweaks.flipswitch
-Conflicts: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.qda, com.clezz.qdb
-Replaces: app.weiphone.clezz.quickdo, com.clezz.quickdo-beta, com.clezz.quickdoipad, com.clezz.qda, com.clezz.qdb
-Architecture: iphoneos-arm
-Filename: deb/quickdoforme_iPad2_3.9-1.deb
-Size: 1056086
-MD5sum: fd06f1feabd74da5037338dafa4fd628
-Description: QuickDo手势插件v3.9-1(iPad2 6.1.3自用版,支持iOS5~8.2)
-Name: QuickDo for iPad
-Author: Ma Jun <majun3@gmail.com>
-Homepage: http://www.clezz.com/quickdo/cydia_page.html?v=3.9-1
-Depiction: https://jianfengzhi.github.io/depiction/?p=quickdoforme
-Icon: file:///Library/PreferenceBundles/QuickDoSettings.bundle/Icon-small.png
-
-Package: com.jianfengzhi.reallpm
-Version: 1.0-30+debug
-Section: Tweaks
-Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate
-Architecture: iphoneos-arm
-Filename: deb/reallpm_1.0-30+debug.deb
-Size: 640844
-MD5sum: ba231b4e03f4ba4b0d1a5616db84b6b4
-Description: 真实低电量模式,已汉化
-Name: RealLPM
-Author: DylanDuff
-Depiction: https://jianfengzhi.github.io/depiction/?p=reallpm
 
 Package: com.jianfengzhi.removelabels
 Version: 0.1-13
@@ -1052,12 +841,11 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, firmware(>=10.0)
 Architecture: iphoneos-arm
 Filename: deb/removelabels_0.1-13.deb
-Size: 23024
-MD5sum: d293d387b8dffddcecd41ebf20aa2829
-Description: 隐藏APP名字(包括Dock,主屏和文件夹),for iOS 10
+Size: 22980
+MD5sum: 5f8f063f0eaef4d493bcdd2f167a5760
+Description: 隐藏APP名字(包括Dock,主屏和文件夹),支持iOS 10
 Name: RemoveLabels
 Author: Lizynz
-Depiction: https://jianfengzhi.github.io/depiction/?p=removelabels
 
 Package: com.jianfengzhi.reprovision
 Version: 0.3.2
@@ -1144,30 +932,30 @@ Section: Networking
 Maintainer: JFZ <jianfengzhi@qq.com>
 Architecture: iphoneos-arm
 Filename: deb/shadowsocks_0.3.2-3.deb
-Size: 1227180
-MD5sum: 7363196237df9129f0b8861207297ef6
-Description: iOS版的Shadowsocks代理软件
+Size: 1227706
+MD5sum: dee665786d3f8b6c0757b05cc525bdac
+Description: iOS版的Shadowsocks代理软件,iOS6自用
 Name: ShadowSocks
 Author: Linus Yang <laokongzi@gmail.com>
 Homepage: https://github.com/linusyang/MobileShadowSocks
-Depiction: https://jianfengzhi.github.io/depiction/?p=shadowsocks
 Icon: file:///Applications/MobileShadowSocks.app/Icon.png
 
-Package: com.jianfengzhi.sleipnizer3
-Version: 8.1.2
+Package: com.jianfengzhi.smartlowpower
+Version: 1.1
+Priority: optional
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
-Depends: mobilesubstrate, preferenceloader (>= 2.2.2), firmware (>= 9.0)
-Conflicts: jp.r-plus.sleipnizerlite, jp.r-plus.sleipnizerforsafari, com.repo.xarold.com.sleipnizerforsafari, jp.r-plus.sleipnizer, com.repo.xarold.com.sleipnizer
+Depends: firmware (>= 9.0), mobilesubstrate, preferenceloader, com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
-Filename: deb/sleipnizer3_8.1.2.deb
-Size: 252798
-MD5sum: 550d0929acbb3f434cfb1d0146794f1a
-Description: 在Safari上使用各种手势浏览操作
-Name: Sleipnizer for Safari (iOS 11, 10, 9)
-Author: r_plus
-Depiction: https://jianfengzhi.github.io/depiction/?p=sleipnizer3
-Icon: file:///Library/PreferenceBundles/SleipnizerSettings.bundle/Sleipnizer@2x.png
+Filename: deb/smartlowpower_1.1.deb
+Size: 41492
+MD5sum: 789960dc3aced768246316a57812e817
+Description: 自动设置低电量模式以延长电池使用时间
+Name: SmartLowPower
+Author: NoisyFlake <contact@noisyflake.com>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=smartlowpowerDp
+Depiction: https://jianfengzhi.github.io/depiction/?p=smartlowpower
+Icon: file:///Library/PreferenceBundles/SmartLowPowerPrefs.bundle/icon@2x.png
 
 Package: com.jianfengzhi.smartlpm
 Version: 1.3.0-1
@@ -1192,12 +980,11 @@ Depends: firmware(>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2
 Conflicts: com.iky1e.swipeselection
 Architecture: iphoneos-arm
 Filename: deb/swipeselection-pro_1.0.3-1.deb
-Size: 30932
-MD5sum: bacd8776e56c610b5959b3a56bf5c57c
-Description: 在原生键盘上移动打字光标
+Size: 30942
+MD5sum: 69f8208c731dc5eefead87ad96143de3
+Description: 在原生键盘上移动打字光标,修复删除按钮无音效问题
 Name: SwipeSelection Pro
 Author: iKy1e (Kyle Howells)
-Depiction: https://jianfengzhi.github.io/depiction/?p=swipeselectionpro
 Icon: file:///Library/PreferenceBundles/SwipeSelectionPro.bundle/SwipeSelectionPro@2x.png
 
 Package: com.jianfengzhi.switchercleaner
@@ -1208,13 +995,12 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, firmware (>= 5.0), preferenceloader
 Architecture: iphoneos-arm
 Filename: deb/switchercleaner_1.2.3-1.deb
-Size: 15004
-MD5sum: 3dd36bd21508367a585cedee56478811
-Description: 多任务状态下直接显示App关闭按钮
+Size: 15010
+MD5sum: 21507dd089c7931a8b290dc56b98ff1f
+Description: 多任务状态下直接显示APP关闭按钮,iOS6自用汉化版
 Name: SwitcherCleaner
 Author: r_plus <anasthasia.r+cleaner@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=switchercleanerDp
-Depiction: https://jianfengzhi.github.io/depiction/?p=switchercleaner
 Icon: file:///Library/PreferenceLoader/Preferences/SwitcherCleaner@2x.png
 
 Package: com.jianfengzhi.systeminfo
@@ -1290,20 +1076,19 @@ Author: Michele Primavera <support@dreamcode.it>
 Depiction: https://jianfengzhi.github.io/depiction/?p=tinybar
 Icon: file:///Library/PreferenceBundles/TinyBar.bundle/Icon@2x.png
 
-Package: com.jianfengzhi.touchr
+Package: com.jianfengzhi.touchr-beta
 Version: 1.0.4~beta1
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
 Architecture: iphoneos-arm
 Filename: deb/touchr_1.0.4-beta1.deb
-Size: 115922
-MD5sum: e6a826711f1e8ee8a11e9f81b9533764
-Description: TouchID 手势
-Name: Touchr
+Size: 115956
+MD5sum: 243d1513c20fe71551ec1db65516e7d1
+Description: TouchID虚拟Home键,最新beta破解版完美支持iOS10.3
+Name: Touchr beta
 Author: Ma Jun <majun3@gmail.com>
 Homepage: http://www.clezz.com/touchr/cydia_page.html?v=1.0.4~beta1
-Depiction: https://jianfengzhi.github.io/depiction/?p=touchr
 Icon: file:///Library/PreferenceBundles/TouchrSettings.bundle/Icon-small@2x.png
 
 Package: com.jianfengzhi.veexillum
@@ -1327,12 +1112,11 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/videohelper_1.0.0beta.deb
-Size: 266394
-MD5sum: 5cb4de06d6510773d8033dd717adae0d
-Description: 视频去广告助手,支持iOS 9/10/11
+Size: 266404
+MD5sum: ee68b2c9a66a0e4977cf623a02146f23
+Description: 视频去广告助手,支持爱奇艺/腾讯视频/优酷/PP视频/芒果TV/乐视,iOS9~11
 Name: Video Helper
 Author: iBreak <ibreak2019@qq.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=videohelper
 
 Package: com.jianfengzhi.virtualmemory
 Version: 2.2-beta
@@ -1343,12 +1127,11 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: firmware (>= 4.0), preferenceloader (>= 2.0.2-1)
 Architecture: iphoneos-arm
 Filename: deb/virtualmemory_2.2-beta.deb
-Size: 19074
-MD5sum: a034043b67f78939f0004755d2989c0f
-Description: 开启iOS6专用的虚拟内存,增加设置菜单开关,极度提升系统多任务处理能力,提升稳定性,99%不会出现安全模式。
+Size: 19040
+MD5sum: 624e7b5a8bbb26239bdc8f795e5c6a74
+Description: 开启iOS6虚拟内存,极度提升系统多任务处理能力,提升稳定性,99%不会出现安全模式。
 Name: VirtualMemory
 Author: hcw1588
-Depiction: https://jianfengzhi.github.io/depiction/?p=virtualmemory
 Icon: file:///Library/PreferenceLoader/Preferences/VirtualMemory/icon.png
 
 Package: com.jianfengzhi.wecallkit
@@ -1357,27 +1140,39 @@ Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/wecallkit_1.0.deb
-Size: 3536
-MD5sum: 97e908e0eed7298c9437920616f9993a
-Description: 开启微信Callkit通话功能
-Name: WeCallkit
+Filename: deb/wechatcallkit_1.0.deb
+Size: 3526
+MD5sum: b85aa0fb9c3590973382ef5a3b33ab40
+Description: 开启微信的Callkit通话功能
+Name: WeChat Callkit
 Author: iBreak <ibreak2019@qq.com>
-Depiction: https://jianfengzhi.github.io/depiction/?p=wecallkit
 
-Package: com.jianfengzhi.wechatcallkit
-Version: 0.0.1
+Package: com.jianfengzhi.wechatfix30s
+Version: 1.0.5
 Section: Tweaks
 Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
-Filename: deb/wechatcallkit_0.0.1.deb
-Size: 2714
-MD5sum: 9cc0acc904766b83749eaf398c6b9abb
-Description: 打开微信的CallKit功能
-Name: WeChatCallKit
-Author: Jianan Tian
-Depiction: https://jianfengzhi.github.io/depiction/?p=wechatcallkit
+Filename: deb/wechatfix30s_1.0.5.deb
+Size: 11866
+MD5sum: b6b1b491a41a43f7022c9a26f872dc91
+Description: 突破微信可拍摄与上传30秒视频
+Name: WeChat Fix30s
+Author: iBreak <ibreak2019@qq.com>
+Depiction: https://jianfengzhi.github.io/depiction/?p=wechatfix30s
+
+Package: com.jianfengzhi.wechathelper
+Version: 1.2.0
+Section: Tweaks
+Maintainer: iBreak <ibreak2019@qq.com>
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: deb/wechathelper_1.2.0.deb
+Size: 42236
+MD5sum: e9887a1e35fa7f718a95b8c8855130b7
+Description: 微信助手 WeChat Helper (原 WeChatFix30s 全新改版),在手机通用设置里
+Name: WeChat Helper
+Author: iBreak <ibreak2019@qq.com>
 
 Package: preferenceloader
 Version: 2.2.4-alpha1
@@ -1386,11 +1181,10 @@ Maintainer: JFZ <jianfengzhi@qq.com>
 Depends: mobilesubstrate
 Architecture: iphoneos-arm
 Filename: deb/preferenceloader_2.2.4-alpha1.deb
-Size: 27644
-MD5sum: baf7c012bea5bfa9b5d5b9d254fc796d
+Size: 27636
+MD5sum: 5a13000b81c9f20890618c512043f5d7
 Description: 插件依赖(新版fix by rpetri)
 Name: PreferenceLoader
 Author: Dustin Howett <cydia.pl@relay.howett.net>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Depiction: https://jianfengzhi.github.io/depiction/?p=preferenceloader
 
