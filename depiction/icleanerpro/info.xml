@@ -1,0 +1,15 @@
+<package>
+    <id>com.jianfengzhi.icleanerpro</id>
+    <name>iCleaner Pro</name>
+    <version>7.7.0</version>
+    <compatibility>
+        <firmware>
+            <miniOS>4.0</miniOS>
+        </firmware>
+    </compatibility>
+    <shortDescription>iCleaner清理工具专业版</shortDescription>
+    <descriptionlist>
+        <description>iOS系统清理和优化工具(自用真正破解版)，仅支持64bit</description>
+        <description>仅在iOS10.3.3测试通过,其他iOS版本自测，如果7.7.0正式版无法使用，请尝试降级到beta版</description>
+    </descriptionlist>
+</package>

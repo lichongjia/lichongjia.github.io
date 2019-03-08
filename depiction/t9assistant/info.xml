@@ -10,7 +10,7 @@
     <shortDescription>T9拨号助手</shortDescription>
     <descriptionlist>
         <description>T9拨号，整合CallAssist和KuaiDial的T9,支持iOS10~11。</description>
-        <description>1.4.0版本如果感觉不好用,可在本源安装1.3.1老版</description>
+        <description>1.4.0版本如果感觉不好用,可降级到1.3.1老版</description>
     </descriptionlist>
     <changelog>
         <change>更新电话助手(CallAssist)到1.3.4</change>
