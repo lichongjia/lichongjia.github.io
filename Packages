@@ -1067,6 +1067,19 @@ Author: Ma Jun
 Depiction: https://jianfengzhi.github.io/depiction/?p=tage
 Icon: file:///Library/PreferenceBundles/TageSettings.bundle/Icon-small@2x.png
 
+Package: com.jianfengzhi.theme-addons
+Version: 1.0
+Section: Themes
+Maintainer: JFZ <jianfengzhi@qq.com>
+Depends: firmware (>= 7.0)
+Architecture: iphoneos-arm
+Filename: ./deb/theme-addons_1.0.deb
+Size: 101266
+MD5sum: 04b7426dfb8adfb2f221bd1830a1028d
+Description: 本人自用角标，遮罩，Dock
+Name: Theme Addons
+Author: JFZ
+
 Package: com.jianfengzhi.tinybar
 Version: 0.2.0
 Priority: optional
