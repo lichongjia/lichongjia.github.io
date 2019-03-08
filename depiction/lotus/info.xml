@@ -1,0 +1,20 @@
+<package>
+	<id>com.jianfengzhi.lotus</id>
+	<name>Lotus</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Lotus</shortDescription>
+	<descriptionlist>
+		<description>Lotus主题自用修改版(部分图标重绘)，效果参看截图。</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>截图1</description>
+			<image>shot1.jpg</image>
+		</screenshot>
+	</screenshots>
+</package>
