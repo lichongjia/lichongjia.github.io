@@ -63,6 +63,20 @@ Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=anemoneDp
 Depiction: https://jianfengzhi.github.io/depiction/?p=anemone
 Icon: file:///Applications/Anemone.app/icon.png
 
+Package: com.jianfengzhi.appcake
+Version: 4.59
+Section: Utilities
+Maintainer: JFZ <jianfengzhi@qq.com>
+Pre-Depends: firmware (>= 4.0)
+Architecture: iphoneos-arm
+Filename: deb/appcake_4.59.deb
+Size: 3355046
+MD5sum: a0f91832ecd94abb7110597758f6716c
+Description: 国外破解版软件商店(iOS6自用版),无法打开下载的APP，请安装APPSync
+Name: AppCake 4
+Author: hotsjf
+Icon: file:///Applications/iPhoneCake.app/AppIcon57x57.png
+
 Package: com.jianfengzhi.appsyncunified
 Version: 32.0
 Section: Tweaks
@@ -109,18 +123,17 @@ Name: Auxo Lite
 Author: A3tweaks <A3tweaks@gmail.com>
 Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
 
-Package: com.jianfengzhi.backtodeb
-Version: 0.9b7
-Section: Tweaks
-Maintainer: iDevid <repo@hackyouriphone.org>
-Depends: grep, coreutils, sed
+Package: com.jianfengzhi.backupdeb
+Version: 1.0
+Section: Utilities
+Maintainer: JFZ <jianfengzhi@qq.com>
 Architecture: iphoneos-arm
-Filename: deb/backtodeb_0.9b7.deb
-Size: 77618
-MD5sum: 7c19985e70bf3808aeae3476e5cabcf2
-Description: A simple Redenfire script.
-Name: BackToDeb
-Author: Redenfire <repo@hackyouriphone.org>
+Filename: deb/backupdeb_1.0.deb
+Size: 3038
+MD5sum: 43c1e3d156f50e562c313cea162fbec6
+Description: 备份deb到/var/mobile/Media/general_storage/iLEX/deb/
+Name: BackupDeb
+Author: JFZ <jianfengzhi@qq.com>
 
 Package: com.jianfengzhi.betterfive
 Version: 1.0
