@@ -1,7 +1,7 @@
 <package>
-	<id>com.jianfengzhi.elite9</id>
-	<name>Elite9</name>
-	<version>1.0</version>
+	<id>com.jianfengzhi.sential</id>
+	<name>Sential</name>
+	<version>1.2</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>
@@ -9,8 +9,8 @@
 	</compatibility>
 	<shortDescription>Elite9主题</shortDescription>
 	<descriptionlist>
-		<description>Elite9主题,自用修改版,精心整理</description>
-		<description>集成各种角标，遮罩，图标效果，见截图</description>
+		<description>Sential主题,自用修改版,部分图标重绘</description>
+		<description>效果见截图</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
