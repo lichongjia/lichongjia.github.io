@@ -7,7 +7,7 @@
 			<miniOS>7.0</miniOS>
 		</firmware>
 	</compatibility>
-	<shortDescription>Elite9主题</shortDescription>
+	<shortDescription>Sential主题</shortDescription>
 	<descriptionlist>
 		<description>Sential主题,自用修改版,部分图标重绘</description>
 		<description>效果见截图</description>
@@ -39,7 +39,7 @@
 		</screenshot>
 	</screenshots>
 		<changelog>
-		<change>更新角标样式</change>
+		<change>更新微信图标</change>
 	</changelog>
 	<links>
 		<link>
